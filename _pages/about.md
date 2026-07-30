@@ -8,7 +8,7 @@ subtitle: Doctoral Student · Computer Architecture · Institute of Computing Te
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.webp
   image_circular: false # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"

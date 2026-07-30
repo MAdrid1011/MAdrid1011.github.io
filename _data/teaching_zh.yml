@@ -12,7 +12,7 @@
     - 夏令营
   icon: microchip
   accent: "#b23a48"
-  poster: /assets/img/teaching/summer-camp-lecture.png
+  poster: /assets/img/teaching/summer-camp-lecture.webp
   poster_alt: 中国科大—闽江大学“龙芯杯”夏令营处理器设计专题授课现场
   poster_fit: cover
 
@@ -30,7 +30,7 @@
     - 硬件设计
   icon: brain
   accent: "#7c3aed"
-  poster: /assets/img/teaching/post-gpu-lecture.jpg
+  poster: /assets/img/teaching/post-gpu-lecture.webp
   poster_alt: “后 GPU 时代的人工智能硬件加速策略与实现”讲座海报
 
 - slug: risc-v-lecture
@@ -47,7 +47,7 @@
     - 处理器设计
   icon: diagram-project
   accent: "#0f766e"
-  poster: /assets/img/teaching/risc-v-lecture.jpg
+  poster: /assets/img/teaching/risc-v-lecture.webp
   poster_alt: “RISC-V 指令集特权架构解析与设计”讲座海报
 
 - slug: computer-organization
@@ -64,7 +64,7 @@
     - 项目实践
   icon: computer
   accent: "#0755a5"
-  poster: /assets/img/teaching/computer-organization.png
+  poster: /assets/img/teaching/computer-organization.webp
   poster_alt: 计算机组成原理实验课程官方标识
   poster_fit: contain
 

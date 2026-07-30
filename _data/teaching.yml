@@ -12,7 +12,7 @@
     - Summer Camp
   icon: microchip
   accent: "#b23a48"
-  poster: /assets/img/teaching/summer-camp-lecture.png
+  poster: /assets/img/teaching/summer-camp-lecture.webp
   poster_alt: Processor design lecture at the USTC–Minjiang University Loongson Cup Summer Camp
   poster_fit: cover
 
@@ -30,7 +30,7 @@
     - Hardware Design
   icon: brain
   accent: "#7c3aed"
-  poster: /assets/img/teaching/post-gpu-lecture.jpg
+  poster: /assets/img/teaching/post-gpu-lecture.webp
   poster_alt: Poster for the Post-GPU Era AI Hardware Acceleration lecture
 
 - slug: risc-v-lecture
@@ -47,7 +47,7 @@
     - Processor Design
   icon: diagram-project
   accent: "#0f766e"
-  poster: /assets/img/teaching/risc-v-lecture.jpg
+  poster: /assets/img/teaching/risc-v-lecture.webp
   poster_alt: Poster for the RISC-V Privileged Architecture lecture
 
 - slug: computer-organization
@@ -64,7 +64,7 @@
     - Project Guidance
   icon: computer
   accent: "#0755a5"
-  poster: /assets/img/teaching/computer-organization.png
+  poster: /assets/img/teaching/computer-organization.webp
   poster_alt: Official COD Lab course logo
   poster_fit: contain
 

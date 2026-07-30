@@ -8,7 +8,7 @@ subtitle: 博士研究生 · 计算机体系结构 · 中国科学院计算技�
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.webp
   image_circular: false
 
 selected_papers: true
