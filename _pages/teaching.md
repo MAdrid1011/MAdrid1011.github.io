@@ -12,11 +12,18 @@ nav_order: 5
 <div class="teaching-list">
   {% for item in site.data.teaching %}
     <article class="teaching-card" style="--teaching-accent: {{ item.accent }};">
-      <div class="teaching-visual" aria-hidden="true">
-        <span class="teaching-year">{{ item.year }}</span>
-        <span class="teaching-icon"><i class="fa-solid fa-{{ item.icon }}"></i></span>
-        <span class="teaching-type">{{ item.type }}</span>
-      </div>
+      {% if item.poster %}
+        <div class="teaching-visual teaching-poster">
+          <img src="{{ item.poster | relative_url }}" alt="{{ item.poster_alt }}" data-zoomable loading="lazy">
+          <span class="teaching-poster-hint" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i> View poster</span>
+        </div>
+      {% else %}
+        <div class="teaching-visual" aria-hidden="true">
+          <span class="teaching-year">{{ item.year }}</span>
+          <span class="teaching-icon"><i class="fa-solid fa-{{ item.icon }}"></i></span>
+          <span class="teaching-type">{{ item.type }}</span>
+        </div>
+      {% endif %}
 
       <div class="teaching-content">
         <div class="teaching-meta">

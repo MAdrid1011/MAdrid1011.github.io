@@ -27,6 +27,8 @@
     - Hardware Design
   icon: brain
   accent: "#7c3aed"
+  poster: /assets/img/teaching/post-gpu-lecture.jpg
+  poster_alt: Poster for the Post-GPU Era AI Hardware Acceleration lecture
 
 - slug: risc-v-lecture
   year: "2025"
@@ -42,6 +44,8 @@
     - Processor Design
   icon: diagram-project
   accent: "#0f766e"
+  poster: /assets/img/teaching/risc-v-lecture.jpg
+  poster_alt: Poster for the RISC-V Privileged Architecture lecture
 
 - slug: computer-organization
   year: "2023–24"

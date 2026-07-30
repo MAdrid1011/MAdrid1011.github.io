@@ -52,6 +52,48 @@
   border-radius: 50%;
 }
 
+.teaching-poster {
+  display: block;
+  padding: 0;
+  cursor: zoom-in;
+  background: color-mix(in srgb, var(--teaching-accent) 9%, #fff);
+}
+
+.teaching-poster::after {
+  display: none;
+}
+
+.teaching-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 14rem;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.teaching-poster-hint {
+  position: absolute;
+  right: 0.65rem;
+  bottom: 0.65rem;
+  z-index: 2;
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  padding: 0.34rem 0.55rem;
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.035em;
+  text-transform: uppercase;
+  pointer-events: none;
+  background: rgb(15 23 42 / 78%);
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 999px;
+  box-shadow: 0 0.3rem 0.8rem rgb(0 0 0 / 20%);
+  backdrop-filter: blur(4px);
+}
+
 .teaching-year,
 .teaching-type,
 .teaching-icon {
@@ -176,6 +218,17 @@
     flex-direction: row;
     gap: 1rem;
     align-items: center;
+  }
+
+  .teaching-poster {
+    display: block;
+    min-height: 0;
+  }
+
+  .teaching-poster img {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: 3 / 4;
   }
 
   .teaching-icon {
