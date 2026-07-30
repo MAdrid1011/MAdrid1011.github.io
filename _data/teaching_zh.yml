@@ -67,6 +67,7 @@
   poster: /assets/img/teaching/computer-organization.webp
   poster_alt: 计算机组成原理实验课程官方标识
   poster_fit: contain
+  course_url: https://soc.ustc.edu.cn/COD/
 
 - slug: computing-systems-practice
   year: "2023"
@@ -85,6 +86,7 @@
   poster: /assets/img/teaching/comprehensive-computing-system.png
   poster_alt: 计算系统综合实验课程官方标识
   poster_fit: contain
+  course_url: https://soc.ustc.edu.cn/CECS/
 
 - slug: circuit-experiments
   year: "2022–23"
@@ -103,3 +105,4 @@
   poster: /assets/img/teaching/digital-lab-advanced.png
   poster_alt: 模拟与数字电路实验提高班官方标识
   poster_fit: contain
+  course_url: https://soc.ustc.edu.cn/Digital-Pro/

@@ -37,10 +37,17 @@ translation_url: /teaching/
         <p class="teaching-venue"><i class="fa-solid fa-building-columns" aria-hidden="true"></i>{{ item.venue }}</p>
         <p class="teaching-description">{{ item.description }}</p>
 
-        <div class="teaching-tags" aria-label="主题">
-          {% for tag in item.tags %}
-            <span>{{ tag }}</span>
-          {% endfor %}
+        <div class="teaching-footer">
+          <div class="teaching-tags" aria-label="主题">
+            {% for tag in item.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% if item.course_url %}
+            <a class="teaching-link" href="{{ item.course_url }}" target="_blank" rel="noopener noreferrer">
+              课程网站 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          {% endif %}
         </div>
       </div>
     </article>
