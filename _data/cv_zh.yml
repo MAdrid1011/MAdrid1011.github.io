@@ -31,27 +31,27 @@ cv:
         publisher: MICRO 2026 · CCF-A · 已接收
         releaseDate: 2026
         url: https://github.com/MAdrid1011/SCARF
-        summary: "**马子睿**、范志华、吴海彬、李文兴、张福林、范东睿、叶笑春、李文明。"
+        summary: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Wenxing Li, Fulin Zhang, Dongrui Fan, Xiaochun Ye, and Wenming Li."
       - title: "AHASD: Asynchronous Heterogeneous Architecture for LLM Adaptive Drafting Speculative Decoding on Mobile Devices"
         publisher: DAC 2026 · CCF-A · 已接收
         releaseDate: 2026
         url: https://doi.org/10.1145/3770743.3803965
-        summary: "**马子睿**、范志华、李文兴、吴海彬、张福林、叶笑春、李文明。"
+        summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Xiaochun Ye, and Wenming Li."
       - title: "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures"
         publisher: ISCA 2026 · CCF-A · 已接收 · 最佳论文提名
         releaseDate: 2026
         url: https://www.iscaconf.org/isca2026/program/
-        summary: "吴海彬、李文明、范志华、**马子睿**、刘宇群、夏腾飞、刘彦欢、张昆明、叶笑春、范东睿、翁健。"
+        summary: "Haibin Wu, Wenming Li, Zhihua Fan, **Zirui Ma**, Yuqun Liu, Tengfei Xia, Yanhuan Liu, Kunming Zhang, Xiaochun Ye, Dongrui Fan, and Jian Weng."
       - title: "HARLD: A RISC-V Based Tightly Coupled Heterogeneous Computing Architecture for Low-Density Parity Check Decoding"
         publisher: Journal of Computer Science and Technology · CCF-B · 已发表
         releaseDate: 2026
         url: https://doi.org/10.1007/s11390-025-5052-5
-        summary: "王兵、**马子睿**、吴海彬、张福林、王越、范志华、李文明、叶笑春、范东睿。"
+        summary: "Bing Wang, **Zirui Ma**, Haibin Wu, Fulin Zhang, Yue Wang, Zhihua Fan, Wenming Li, Xiaochun Ye, and Dongrui Fan."
       - title: "BISC: Rethinking Instruction Set Abstractions at Block Granularity"
         publisher: IEEE Computer Architecture Letters · 已发表
         releaseDate: 2026
         url: https://researchportal.hkust.edu.hk/en/publications/bisc-rethinking-instruction-set-abstractions-at-block-granularity/
-        summary: "钟安、胡涵之、**马子睿**、李梦竹、吴海彬、张福林、邓锦毅、徐策宇、李文明、胡扬、翁健。"
+        summary: "An Zhong, Hanzhi Hu, **Zirui Ma**, Mengzhu Li, Haibin Wu, Fulin Zhang, Jinyi Deng, Ceyu Xu, Wenming Li, Yang Hu, and Jian Weng."
 
     Honors and Awards:
       - title: 计算技术研究所所长优秀奖学金
