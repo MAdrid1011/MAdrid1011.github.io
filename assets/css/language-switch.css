@@ -1,0 +1,21 @@
+.navbar .language-switch .nav-link {
+  display: inline-flex;
+  gap: 0.28rem;
+  align-items: center;
+  color: var(--global-theme-color) !important;
+  font-weight: 800;
+}
+
+.navbar .language-switch .nav-link i {
+  font-size: 0.9em;
+}
+
+.navbar .language-switch .nav-link:hover {
+  color: var(--global-hover-color) !important;
+}
+
+@media (width <= 575px) {
+  .navbar .language-switch .nav-link {
+    padding-block: 0.65rem;
+  }
+}

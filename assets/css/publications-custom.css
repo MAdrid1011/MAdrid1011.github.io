@@ -1,0 +1,30 @@
+.publications ol.bibliography li .periodical + .periodical {
+  margin-top: 0.12rem;
+  color: var(--global-text-color);
+  font-weight: 700;
+}
+
+.publications ol.bibliography li .links a.award.btn {
+  border-color: #b45309 !important;
+  background: linear-gradient(135deg, #92400e 0%, #d97706 100%);
+  box-shadow: 0 0.2rem 0.65rem rgb(180 83 9 / 28%);
+  color: #fff !important;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  transition:
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.publications ol.bibliography li .links a.award.btn::before {
+  margin-right: 0.35rem;
+  content: "★";
+}
+
+.publications ol.bibliography li .links a.award.btn:hover {
+  border-color: #92400e !important;
+  background: linear-gradient(135deg, #78350f 0%, #b45309 100%);
+  box-shadow: 0 0.35rem 0.9rem rgb(146 64 14 / 36%);
+  color: #fff !important;
+  transform: translateY(-1px);
+}

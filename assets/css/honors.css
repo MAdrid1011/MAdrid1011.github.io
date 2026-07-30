@@ -1,0 +1,155 @@
+.honors-showcase {
+  --honor-municipal: #0f766e;
+  --honor-national: #b45309;
+  --honor-provincial: #7e22ce;
+  --honor-university: #2563eb;
+  padding-top: 0.25rem;
+}
+
+.honor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+
+.honor-card {
+  --honor-accent: var(--global-theme-color);
+  position: relative;
+  min-height: 12.5rem;
+  padding: 1.2rem 1.25rem 1.15rem;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-top: 3px solid var(--honor-accent);
+  border-radius: 0.8rem;
+  box-shadow: 0 0.5rem 1.3rem color-mix(in srgb, var(--global-text-color) 6%, transparent);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.honor-card:hover {
+  box-shadow: 0 0.8rem 1.7rem color-mix(in srgb, var(--honor-accent) 16%, transparent);
+  transform: translateY(-3px);
+}
+
+.honor-tier-municipal {
+  --honor-accent: var(--honor-municipal);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--honor-accent) 5%, var(--global-card-bg-color)), var(--global-card-bg-color) 64%);
+}
+
+.honor-tier-national {
+  --honor-accent: var(--honor-national);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--honor-accent) 12%, var(--global-card-bg-color)), var(--global-card-bg-color) 68%);
+  border-top-width: 5px;
+  box-shadow: 0 0.7rem 1.7rem color-mix(in srgb, var(--honor-accent) 18%, transparent);
+}
+
+.honor-tier-provincial {
+  --honor-accent: var(--honor-provincial);
+  background: linear-gradient(140deg, color-mix(in srgb, var(--honor-accent) 8%, var(--global-card-bg-color)), var(--global-card-bg-color) 66%);
+  border-top-width: 4px;
+  box-shadow: 0 0.6rem 1.5rem color-mix(in srgb, var(--honor-accent) 11%, transparent);
+}
+
+.honor-tier-university {
+  --honor-accent: var(--honor-university);
+  background: linear-gradient(145deg, color-mix(in srgb, var(--honor-accent) 4%, var(--global-card-bg-color)), var(--global-card-bg-color) 64%);
+}
+
+.honor-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.honor-card-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.38rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.honor-card-icon {
+  display: grid;
+  width: 2.45rem;
+  height: 2.45rem;
+  color: var(--honor-accent);
+  place-items: center;
+  background: color-mix(in srgb, var(--honor-accent) 12%, transparent);
+  border-radius: 0.65rem;
+}
+
+.honor-year {
+  padding: 0.2rem 0.55rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--honor-accent);
+  background: color-mix(in srgb, var(--honor-accent) 10%, transparent);
+  border-radius: 999px;
+}
+
+.honor-level {
+  padding: 0.24rem 0.58rem;
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+  background: var(--honor-accent);
+  border: 1px solid var(--honor-accent);
+  border-radius: 999px;
+  box-shadow: 0 0.22rem 0.55rem color-mix(in srgb, var(--honor-accent) 22%, transparent);
+}
+
+.honor-tier-national .honor-level {
+  box-shadow: 0 0.25rem 0.75rem color-mix(in srgb, var(--honor-accent) 38%, transparent);
+}
+
+.honor-category {
+  font-size: 0.67rem;
+  font-weight: 750;
+  color: var(--honor-accent);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.honor-card h3 {
+  margin: 0.35rem 0 0.45rem;
+  font-size: 1.02rem;
+  line-height: 1.35;
+  color: var(--global-text-color);
+}
+
+.honor-awarder,
+.honor-summary {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.48;
+  color: var(--global-text-color-light);
+}
+
+.honor-summary {
+  padding-top: 0.55rem;
+  margin-top: 0.65rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+@media (width <= 760px) {
+  .honor-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .honor-card {
+    transition: none;
+  }
+
+  .honor-card:hover {
+    transform: none;
+  }
+}
