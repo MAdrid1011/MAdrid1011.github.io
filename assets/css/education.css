@@ -160,6 +160,18 @@
   color: var(--global-text-color);
 }
 
+.education-fact-value a {
+  font-weight: 700;
+  color: var(--education-accent);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--education-accent) 35%, transparent);
+  text-underline-offset: 0.18em;
+}
+
+.education-fact-value a:hover {
+  text-decoration-color: var(--education-accent);
+}
+
 .education-disciplines {
   padding-top: 0.9rem;
   margin-top: auto;

@@ -33,6 +33,18 @@ nav_order: 4
             </div>
           </div>
 
+          {% if item.advisor %}
+            <div class="education-fact">
+              <span class="education-fact-icon"><i class="fa-solid fa-user-tie" aria-hidden="true"></i></span>
+              <div>
+                <span class="education-fact-label">Advisor</span>
+                <span class="education-fact-value">
+                  <a href="{{ item.advisor_url }}" target="_blank" rel="noopener noreferrer">{{ item.advisor }}</a>
+                </span>
+              </div>
+            </div>
+          {% endif %}
+
           {% if item.program %}
             <div class="education-fact">
               <span class="education-fact-icon"><i class="fa-solid fa-star" aria-hidden="true"></i></span>
