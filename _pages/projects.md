@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Open-source processors, architecture prototypes, and systems projects.
+description: Processor and architecture projects spanning RISC-V, LoongArch, dataflow interconnects, and intelligent computing.
 nav: true
 nav_order: 2
-display_categories: [processors, systems]
 horizontal: true
 ---
 
