@@ -4,7 +4,7 @@
   category: scholarship
   category_label: 奖学金
   tier: university
-  level_label: 研究所
+  level_label: 所级
   icon: fa-award
 
 - year: "2025"
@@ -13,7 +13,7 @@
   category: academic
   category_label: 学术荣誉
   tier: university
-  level_label: 研究所
+  level_label: 所级
   icon: fa-star
 
 - year: "2024"
@@ -22,7 +22,7 @@
   category: scholarship
   category_label: 奖学金
   tier: university
-  level_label: 研究所
+  level_label: 所级
   icon: fa-graduation-cap
 
 - year: "2024 & 2025"
@@ -31,7 +31,7 @@
   category: academic
   category_label: 学术荣誉
   tier: university
-  level_label: 高校
+  level_label: 校级
   icon: fa-star
 
 - year: "2024"
@@ -69,7 +69,7 @@
   category: service
   category_label: 教学荣誉
   tier: university
-  level_label: 高校
+  level_label: 校级
   icon: fa-chalkboard-user
   summary: 获评比例不超过全校助教总数的 7%。
 
@@ -79,7 +79,7 @@
   category: service
   category_label: 学生工作
   tier: university
-  level_label: 高校
+  level_label: 校级
   icon: fa-user-group
 
 - year: "2020, 2021 & 2023"
@@ -88,5 +88,5 @@
   category: scholarship
   category_label: 奖学金
   tier: university
-  level_label: 高校
+  level_label: 校级
   icon: fa-graduation-cap
