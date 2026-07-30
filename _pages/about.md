@@ -4,6 +4,8 @@ title: About
 permalink: /
 lang: en
 translation_url: /zh/
+disable_masonry: true
+disable_math: true
 subtitle: Doctoral Student · Computer Architecture · Institute of Computing Technology
 
 profile:

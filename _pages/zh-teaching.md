@@ -7,6 +7,8 @@ nav: true
 nav_order: 5
 lang: zh-CN
 translation_url: /teaching/
+disable_masonry: true
+disable_math: true
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url | bust_file_cache }}">
@@ -16,7 +18,16 @@ translation_url: /teaching/
     <article class="teaching-card" style="--teaching-accent: {{ item.accent }};">
       {% if item.poster %}
         <div class="teaching-visual teaching-poster teaching-poster-{{ item.poster_fit | default: 'cover' }}">
-          <img src="{{ item.poster | relative_url }}" alt="{{ item.poster_alt }}" data-zoomable loading="lazy">
+          <img
+            src="{{ item.poster | relative_url }}"
+            alt="{{ item.poster_alt }}"
+            data-zoomable
+            loading="{% if forloop.first %}eager{% else %}lazy{% endif %}"
+            {% if forloop.first %}fetchpriority="high"{% endif %}
+            decoding="async"
+            width="{{ item.poster_width }}"
+            height="{{ item.poster_height }}"
+          >
           <span class="teaching-poster-hint" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i> 查看图片</span>
         </div>
       {% else %}

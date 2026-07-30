@@ -7,6 +7,8 @@ nav: true
 nav_order: 1
 lang: en
 translation_url: /zh/publications/
+disable_masonry: true
+disable_math: true
 ---
 
 <!-- _pages/publications.md -->

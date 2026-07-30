@@ -11,6 +11,8 @@
   qualification_label: Current Status
   qualification: M.S.–Ph.D. Student
   logo: /assets/img/education/ict-logo.png
+  logo_width: 569
+  logo_height: 86
   website: https://www.ict.ac.cn/
   accent: "#b23a48"
 
@@ -28,5 +30,7 @@
     - Computer Science and Technology
     - Finance
   logo: /assets/img/education/ustc-logo.svg
+  logo_width: 470
+  logo_height: 90
   website: https://www.ustc.edu.cn/
   accent: "#0755a5"

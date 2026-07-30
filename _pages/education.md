@@ -7,6 +7,9 @@ nav: true
 nav_order: 4
 lang: en
 translation_url: /zh/education/
+disable_masonry: true
+disable_math: true
+disable_image_tools: true
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/education.css' | relative_url }}">
@@ -15,7 +18,15 @@ translation_url: /zh/education/
   {% for item in site.data.education %}
     <article class="education-card education-card-{{ item.slug }}" style="--education-accent: {{ item.accent }};">
       <a class="education-logo-panel" href="{{ item.website }}" aria-label="Visit {{ item.institution }} website">
-        <img src="{{ item.logo | relative_url }}" alt="{{ item.institution }} logo">
+        <img
+          src="{{ item.logo | relative_url }}"
+          alt="{{ item.institution }} logo"
+          loading="eager"
+          {% if forloop.first %}fetchpriority="high"{% endif %}
+          decoding="async"
+          width="{{ item.logo_width }}"
+          height="{{ item.logo_height }}"
+        >
       </a>
 
       <div class="education-card-body">

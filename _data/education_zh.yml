@@ -10,6 +10,8 @@
   qualification_label: 当前身份
   qualification: 在读硕博连读生
   logo: /assets/img/education/ict-logo.png
+  logo_width: 569
+  logo_height: 86
   website: https://www.ict.ac.cn/
   accent: "#b23a48"
 
@@ -26,5 +28,7 @@
     - 计算机科学与技术
     - 金融学
   logo: /assets/img/education/ustc-logo.svg
+  logo_width: 470
+  logo_height: 90
   website: https://www.ustc.edu.cn/
   accent: "#0755a5"

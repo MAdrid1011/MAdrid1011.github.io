@@ -13,6 +13,8 @@
   icon: microchip
   accent: "#b23a48"
   poster: /assets/img/teaching/summer-camp-lecture.webp
+  poster_width: 600
+  poster_height: 800
   poster_alt: 中国科大—闽江大学“龙芯杯”夏令营处理器设计专题授课现场
   poster_fit: cover
 
@@ -31,6 +33,8 @@
   icon: brain
   accent: "#7c3aed"
   poster: /assets/img/teaching/post-gpu-lecture.webp
+  poster_width: 600
+  poster_height: 800
   poster_alt: “后 GPU 时代的人工智能硬件加速策略与实现”讲座海报
 
 - slug: risc-v-lecture
@@ -48,6 +52,8 @@
   icon: diagram-project
   accent: "#0f766e"
   poster: /assets/img/teaching/risc-v-lecture.webp
+  poster_width: 600
+  poster_height: 800
   poster_alt: “RISC-V 指令集特权架构解析与设计”讲座海报
 
 - slug: computer-organization
@@ -65,6 +71,8 @@
   icon: computer
   accent: "#0755a5"
   poster: /assets/img/teaching/computer-organization.webp
+  poster_width: 600
+  poster_height: 597
   poster_alt: 计算机组成原理实验课程官方标识
   poster_fit: contain
   course_url: https://soc.ustc.edu.cn/COD/
@@ -84,6 +92,8 @@
   icon: code
   accent: "#c2410c"
   poster: /assets/img/teaching/comprehensive-computing-system.png
+  poster_width: 700
+  poster_height: 367
   poster_alt: 计算系统综合实验课程官方标识
   poster_fit: contain
   course_url: https://soc.ustc.edu.cn/CECS/
@@ -103,6 +113,8 @@
   icon: wave-square
   accent: "#a16207"
   poster: /assets/img/teaching/digital-lab-advanced.png
+  poster_width: 691
+  poster_height: 270
   poster_alt: 模拟与数字电路实验提高班官方标识
   poster_fit: contain
   course_url: https://soc.ustc.edu.cn/Digital-Pro/

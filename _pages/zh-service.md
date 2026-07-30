@@ -7,6 +7,9 @@ nav: true
 nav_order: 6
 lang: zh-CN
 translation_url: /service/
+disable_masonry: true
+disable_math: true
+disable_image_tools: true
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/service.css' | relative_url }}">
@@ -17,7 +20,15 @@ translation_url: /service/
       {% if item.image %}
         <div class="service-visual">
           <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="访问 {{ item.image_label }} 官方网站">
-            <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt }}" loading="lazy">
+            <img
+              src="{{ item.image | relative_url }}"
+              alt="{{ item.image_alt }}"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+              width="{{ item.image_width }}"
+              height="{{ item.image_height }}"
+            >
             {% if item.conference_name %}
               <span class="service-conference-overlay">
                 <strong>{{ item.conference_name }}</strong>

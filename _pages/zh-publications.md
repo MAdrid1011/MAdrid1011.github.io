@@ -7,6 +7,8 @@ nav: true
 nav_order: 1
 lang: zh-CN
 translation_url: /publications/
+disable_masonry: true
+disable_math: true
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications-custom.css' | relative_url }}">

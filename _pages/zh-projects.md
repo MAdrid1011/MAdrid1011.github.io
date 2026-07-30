@@ -7,6 +7,9 @@ nav: true
 nav_order: 2
 lang: zh-CN
 translation_url: /projects/
+disable_masonry: true
+disable_math: true
+disable_image_tools: true
 ---
 
 {% if site.data.repositories.github_users %}

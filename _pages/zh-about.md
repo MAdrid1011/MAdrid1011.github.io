@@ -4,6 +4,8 @@ title: 关于我
 permalink: /zh/
 lang: zh-CN
 translation_url: /
+disable_masonry: true
+disable_math: true
 display_name: 马子睿
 subtitle: 博士研究生 · 计算机体系结构 · 中国科学院计算技术研究所
 

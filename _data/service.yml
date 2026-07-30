@@ -12,6 +12,8 @@
   accent: "#7c3aed"
   url: https://microarch.org/micro59/
   image: /assets/img/service/micro2026-banner.webp
+  image_width: 1000
+  image_height: 667
   image_alt: Athens skyline from the MICRO 2026 official homepage banner
   image_label: MICRO 2026
   conference_name: MICRO 2026
