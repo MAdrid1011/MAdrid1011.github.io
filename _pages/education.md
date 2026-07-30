@@ -46,8 +46,8 @@ nav_order: 4
           <div class="education-fact">
             <span class="education-fact-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
             <div>
-              <span class="education-fact-label">Degree</span>
-              <span class="education-fact-value">{{ item.degree }}</span>
+              <span class="education-fact-label">{{ item.qualification_label }}</span>
+              <span class="education-fact-value">{{ item.qualification }}</span>
             </div>
           </div>
         </div>

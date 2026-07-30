@@ -6,10 +6,11 @@
   dates: 2024.09 – Present
   unit: High-Throughput Computer Research Center
   discipline: Computer Science and Technology
-  degree: M.S.–Ph.D. Student
+  qualification_label: Current Status
+  qualification: M.S.–Ph.D. Student
   logo: /assets/img/education/ict-logo.png
   website: https://www.ict.ac.cn/
-  accent: "#1477b9"
+  accent: "#b23a48"
 
 # Official logo source: https://www.ustc.edu.cn/news/images/logo.svg
 - slug: ustc
@@ -19,7 +20,8 @@
   dates: 2020.09 – 2024.06
   unit: School of Computer Science and Technology
   program: Hua Xia Talent Program in Computer Science and Technology
-  degree: Dual Bachelor's Degrees
+  qualification_label: Degrees Earned
+  qualification: Dual Bachelor's Degrees
   disciplines:
     - Computer Science and Technology
     - Finance
