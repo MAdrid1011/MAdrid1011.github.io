@@ -24,10 +24,19 @@ nav_order: 3
       <span class="award-stat-value">{{ scholarships | size }}</span>
       <span class="award-stat-label">Scholarships</span>
     </div>
-    <div class="award-stat">
-      <span class="award-stat-icon"><i class="fa-solid fa-calendar" aria-hidden="true"></i></span>
-      <span class="award-stat-value award-stat-value-text">2020–2025</span>
-      <span class="award-stat-label">Years of Recognition</span>
+    <div class="award-stat award-stat-timeline">
+      <div class="award-stat-timeline-header">
+        <span class="award-stat-timeline-title">Recognition Timeline</span>
+        <span class="award-stat-timeline-count">6 years</span>
+      </div>
+      <div class="award-stat-timeline-range" aria-label="Recognition every year from 2020 through 2025">
+        <span>2020</span>
+        <div class="award-stat-timeline-line" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+        <span>2025</span>
+      </div>
+      <span class="award-stat-timeline-caption">Six consecutive years of recognition</span>
     </div>
   </section>
 
