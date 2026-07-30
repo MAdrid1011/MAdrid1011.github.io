@@ -4,6 +4,12 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - MAdrid1011/Zircon-2024
+  - MAdrid1011/Zircon
+  - MAdrid1011/USTC-NSCSCC
   - npz7yyk/clap
+  - MAdrid1011/Zircon-2024
+  - MAdrid1011/AHASD
+  - MAdrid1011/SCARF
   - MAdrid1011/intelligent-computing-core
+  - MAdrid1011/LA32RSim-2026
+  - MAdrid1011/Golden-Ratio
