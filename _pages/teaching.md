@@ -9,7 +9,7 @@ lang: en
 translation_url: /zh/teaching/
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url | bust_file_cache }}">
 
 <div class="teaching-list">
   {% for item in site.data.teaching %}
