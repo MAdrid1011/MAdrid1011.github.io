@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /service/
-title: service
+title: Service
 description: Academic service and reviewing activities.
 nav: true
 nav_order: 6

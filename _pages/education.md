@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /education/
-title: education
+title: Education
 description: Academic training in computer science and technology, with interdisciplinary study in finance.
 nav: true
 nav_order: 4

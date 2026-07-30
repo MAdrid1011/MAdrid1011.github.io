@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Open-source processors, architecture prototypes, and peer-reviewed research artifacts.
 nav: true

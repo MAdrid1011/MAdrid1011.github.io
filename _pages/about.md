@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Doctoral Student · Computer Architecture · Open-Source Processor Design
 

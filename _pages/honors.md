@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /honors/
-title: honors
+title: Honors
 description: Academic honors, scholarships, and competition distinctions.
 nav: true
 nav_order: 3

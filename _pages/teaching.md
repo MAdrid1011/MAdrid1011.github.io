@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
+title: Teaching
 description: Invited lectures, processor-design training, and course teaching in computer architecture and computing systems.
 nav: true
 nav_order: 5
