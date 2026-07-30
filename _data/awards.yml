@@ -4,7 +4,7 @@
   category: scholarship
   category_label: Scholarship
   tier: institute
-  level_label: Institute Level
+  level_label: Institute
   icon: fa-award
 
 - year: "2024"
@@ -13,18 +13,17 @@
   category: scholarship
   category_label: Scholarship
   tier: institute
-  level_label: Institute Level
+  level_label: Institute
   icon: fa-graduation-cap
 
-- year: "2024–25"
+- year: "2024 & 2025"
   title: Outstanding Student
   awarder: University of Chinese Academy of Sciences
   category: academic
   category_label: Academic Honor
   tier: university
-  level_label: University Level
+  level_label: University
   icon: fa-star
-  summary: Recognized in both 2024 and 2025.
 
 - year: "2024"
   title: Outstanding Undergraduate Thesis
@@ -32,8 +31,9 @@
   category: academic
   category_label: Thesis Distinction
   tier: provincial
-  level_label: Provincial Level
+  level_label: Provincial
   icon: fa-book-open
+  summary: The only USTC undergraduate recipient selected that year.
 
 - year: "2022"
   title: National Runner-up, LoongArch Track
@@ -41,8 +41,9 @@
   category: competition
   category_label: Competition
   tier: national
-  level_label: National Level
+  level_label: National
   icon: fa-medal
+  summary: USTC's first award in the LoongArch Track.
 
 - year: "2022"
   title: Suzhou Yucai Scholarship
@@ -50,7 +51,7 @@
   category: scholarship
   category_label: Scholarship
   tier: municipal
-  level_label: Municipal Level
+  level_label: Municipal
   icon: fa-award
 
 - year: "2022"
@@ -59,8 +60,9 @@
   category: service
   category_label: Teaching
   tier: university
-  level_label: University Level
+  level_label: University
   icon: fa-chalkboard-user
+  summary: Selected from no more than 7% of teaching assistants at USTC.
 
 - year: "2022"
   title: Outstanding Student Leader
@@ -68,7 +70,7 @@
   category: service
   category_label: Leadership
   tier: university
-  level_label: University Level
+  level_label: University
   icon: fa-user-group
 
 - year: "2020, 2021 & 2023"
@@ -77,6 +79,5 @@
   category: scholarship
   category_label: Scholarship
   tier: university
-  level_label: University Level
+  level_label: University
   icon: fa-graduation-cap
-  summary: Awarded in three academic years.
