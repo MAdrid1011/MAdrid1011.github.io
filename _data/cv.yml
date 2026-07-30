@@ -6,7 +6,6 @@ cv:
   address:
     city: Beijing
     region: China
-  summary: Doctoral student working on computer architecture, domain-specific accelerators, RISC-V processor design, and dataflow systems.
 
   social_networks:
     - network: GitHub
@@ -30,44 +29,6 @@ cv:
         studyType: Dual Bachelor's Degrees
         start_date: 2020-09
         end_date: 2024-06
-
-    Experience:
-      - company: USTC–Minjiang University Loongson Cup Summer Camp
-        position: Invited Lecturer
-        location: Fuzhou, China
-        date: 2026-07
-        summary: Processor Design for the 10th Loongson Cup
-        highlights:
-          - Delivered processor-design training to undergraduates from USTC and Minjiang University.
-      - company: “Technical Expert in the Classroom” Lecture Series, USTC
-        position: Invited Speaker
-        location: Hefei, China
-        start_date: 2025-05
-        end_date: 2026-05
-        highlights:
-          - Presented “Analysis and Design of the RISC-V Privileged Architecture” in May 2025.
-          - Presented “Strategies and Implementations for AI Hardware Acceleration in the Post-GPU Era” in May 2026.
-      - company: University of Science and Technology of China
-        position: Teaching Assistant for Computer Architecture Courses
-        location: Hefei, China
-        start_date: 2022-09
-        end_date: 2024-06
-        highlights:
-          - Supported Syllabus of Digital Logic Lab, Computer Organization, and Comprehensive Experiment Of Computing System.
-          - Mentored more than ten undergraduates whose projects received one First Prize, two Second Prizes, and seven Third Prizes in the Loongson Cup.
-      - company: Undergraduate Class 1, Class of 2024, School of Computer Science and Technology, USTC
-        position: Class Monitor and Deputy Secretary of the Youth League Branch
-        location: Hefei, China
-        start_date: 2020-09
-        end_date: 2024-06
-      - company: USTC Student Choir
-        position: President
-        location: Hefei, China
-        start_date: 2022-06
-        end_date: 2023-06
-        highlights:
-          - Organized campus performances including the 2022 New Year Concert and the 2023 Graduation Concert.
-          - Coordinated appearances on China Media Group's “Shining Names” and Zhejiang Satellite TV's “The Treasured Voice.”
 
     Publications:
       - title: "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow"
@@ -95,10 +56,6 @@ cv:
         releaseDate: 2026
         url: https://researchportal.hkust.edu.hk/en/publications/bisc-rethinking-instruction-set-abstractions-at-block-granularity/
         summary: "An Zhong, Hanzhi Hu, **Zirui Ma**, Mengzhu Li, Haibin Wu, Fulin Zhang, Jinyi Deng, Ceyu Xu, Wenming Li, Yang Hu, and Jian Weng."
-
-    Patents:
-      - bullet: "**Zirui Ma**, Haibin Wu, Wenming Li, and Xiaochun Ye. *A Processor Supporting Dynamic In-Core Frontend/Backend Decoupling and Reconfiguration.* Under substantive examination."
-      - bullet: "**Zirui Ma**, Zhihua Fan, Wenming Li, and Xiaochun Ye. *A Draft-State-Aware Processing-in-Memory Command Scheduling Method and System for Speculative Decoding.* Submitted."
 
     Honors and Awards:
       - title: Director's Outstanding Scholarship
@@ -135,15 +92,18 @@ cv:
         date: "2020, 2021 & 2023"
         awarder: University of Science and Technology of China
 
+    Patents:
+      - bullet: "**Zirui Ma**, Haibin Wu, Wenming Li, and Xiaochun Ye. *A Processor Supporting Dynamic In-Core Frontend/Backend Decoupling and Reconfiguration.* Under substantive examination."
+      - bullet: "**Zirui Ma**, Zhihua Fan, Wenming Li, and Xiaochun Ye. *A Draft-State-Aware Processing-in-Memory Command Scheduling Method and System for Speculative Decoding.* Submitted."
+
     Academic Service:
       - bullet: "**Artifact Evaluation Program Committee Member:** MICRO 2026."
 
-    Academic Interests:
-      - name: Research
-        icon: fa-solid fa-microchip
-        keywords:
-          - Computer Architecture
-          - Domain-Specific Accelerators
-          - RISC-V Processor Design
-          - Dataflow Systems
-          - Open-Source Hardware
+    Teaching:
+      - bullet: "**2026 · Invited Lecturer:** Delivered processor-design training to USTC and Minjiang University undergraduates at the 10th Loongson Cup Summer Camp."
+      - bullet: "**2025–2026 · Invited Speaker:** Presented lectures on RISC-V privileged architecture and post-GPU AI hardware acceleration for USTC's “Technical Expert in the Classroom” series."
+      - bullet: "**2022–2024 · Teaching Assistant:** Supported Syllabus of Digital Logic Lab, Computer Organization, and Comprehensive Experiment Of Computing System; mentored more than ten undergraduates whose projects received one First Prize, two Second Prizes, and seven Third Prizes in the Loongson Cup."
+
+    Student Leadership:
+      - bullet: "**2022–2023 · President, USTC Student Choir:** Organized the 2022 New Year Concert and 2023 Graduation Concert, and coordinated appearances on China Media Group's “Shining Names” and Zhejiang Satellite TV's “The Treasured Voice.”"
+      - bullet: "**2020–2024 · Class Monitor and Deputy Secretary of the Youth League Branch:** Undergraduate Class 1, Class of 2024, School of Computer Science and Technology, USTC."

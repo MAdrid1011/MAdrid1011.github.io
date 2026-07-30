@@ -12,10 +12,22 @@ nav_order: 6
 <div class="service-list">
   {% for item in site.data.service %}
     <article class="service-card" style="--service-accent: {{ item.accent }};">
-      <div class="service-marker" aria-hidden="true">
-        <span class="service-year">{{ item.year }}</span>
-        <span class="service-icon"><i class="fa-solid fa-{{ item.icon }}"></i></span>
-      </div>
+      {% if item.image %}
+        <div class="service-visual">
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit the {{ item.image_label }} website">
+            <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt }}" loading="lazy">
+            <span class="service-image-label">{{ item.image_label }}</span>
+          </a>
+          {% if item.image_credit %}
+            <a class="service-image-credit" href="{{ item.image_credit_url }}" target="_blank" rel="noopener noreferrer">{{ item.image_credit }}</a>
+          {% endif %}
+        </div>
+      {% else %}
+        <div class="service-marker" aria-hidden="true">
+          <span class="service-year">{{ item.year }}</span>
+          <span class="service-icon"><i class="fa-solid fa-{{ item.icon }}"></i></span>
+        </div>
+      {% endif %}
 
       <div class="service-content">
         <div class="service-meta">
