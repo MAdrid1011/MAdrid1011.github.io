@@ -76,6 +76,12 @@
   text-shadow: 0 0.12rem 0.45rem rgb(0 0 0 / 70%);
 }
 
+.service-conference-overlay,
+.service-conference-overlay strong,
+.service-conference-overlay span {
+  color: #fff;
+}
+
 .service-conference-overlay strong {
   font-size: clamp(1.75rem, 3.5vw, 2.55rem);
   font-weight: 850;

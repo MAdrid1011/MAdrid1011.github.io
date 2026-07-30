@@ -16,9 +16,8 @@ toc:
 {% assign cv = site.data.cv_zh.cv %}
 
 <div class="cv">
-  <a class="anchor" id="contact-information"></a>
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">联系信息</h3>
+    <h3 id="contact-information" class="card-title font-weight-medium">联系信息</h3>
     <table class="table table-cv table-sm table-borderless">
       <tr>
         <td class="p-1 pr-2 font-weight-bold"><b>姓名</b></td>
@@ -43,40 +42,32 @@ toc:
     </table>
   </div>
 
-<a class="anchor" id="education"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">教育背景</h3>
+    <h3 id="education" class="card-title font-weight-medium">教育背景</h3>
     <div>
       {% assign entries = cv.sections.Education %}
       {% include cv/education.liquid %}
     </div>
   </div>
 
-<a class="anchor" id="publications"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">学术论文</h3>
+    <h3 id="publications" class="card-title font-weight-medium">学术论文</h3>
     <div>
       {% assign entries = cv.sections.Publications %}
       {% include cv/publications.liquid %}
     </div>
   </div>
 
-<a class="anchor" id="honors"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">荣誉</h3>
+    <h3 id="honors" class="card-title font-weight-medium">荣誉</h3>
     <div>
       {% assign entries = cv.sections['Honors and Awards'] %}
       {% include cv/awards.liquid %}
     </div>
   </div>
 
-<a class="anchor" id="patents"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">发明专利</h3>
+    <h3 id="patents" class="card-title font-weight-medium">发明专利</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in cv.sections.Patents %}
         <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -84,10 +75,8 @@ toc:
     </ul>
   </div>
 
-<a class="anchor" id="academic-service"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">学术服务</h3>
+    <h3 id="academic-service" class="card-title font-weight-medium">学术服务</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in cv.sections['Academic Service'] %}
         <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -95,10 +84,8 @@ toc:
     </ul>
   </div>
 
-<a class="anchor" id="teaching"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">教学经历</h3>
+    <h3 id="teaching" class="card-title font-weight-medium">教学经历</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in cv.sections.Teaching %}
         <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -106,10 +93,8 @@ toc:
     </ul>
   </div>
 
-<a class="anchor" id="student-leadership"></a>
-
   <div class="card mt-3 p-3">
-    <h3 class="card-title font-weight-medium">学生工作</h3>
+    <h3 id="student-leadership" class="card-title font-weight-medium">学生工作</h3>
     <ul class="card-text font-weight-light list-group list-group-flush">
       {% for entry in cv.sections['Student Leadership'] %}
         <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
