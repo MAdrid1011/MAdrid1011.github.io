@@ -7,6 +7,7 @@
 {% assign nav_toggle_label = 'Toggle navigation' %}
 {% assign search_label = 'Open search' %}
 {% assign theme_label = 'Change color theme' %}
+{% assign localized_site_title = site.title %}
 {% if current_lang contains 'zh' %}
   {% assign home_url = '/zh/' %}
   {% assign alternate_lang = 'en' %}
@@ -16,6 +17,7 @@
   {% assign nav_toggle_label = '切换导航' %}
   {% assign search_label = '打开搜索' %}
   {% assign theme_label = '切换配色' %}
+  {% assign localized_site_title = '马子睿' %}
 {% endif %}
 {% assign language_url = page.translation_url %}
 {% if language_url == blank %}
@@ -45,7 +47,7 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {{- localized_site_title -}}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
