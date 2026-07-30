@@ -1,0 +1,202 @@
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.35rem;
+}
+
+.education-card {
+  --education-accent: var(--global-theme-color);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-top: 4px solid var(--education-accent);
+  border-radius: 1rem;
+  box-shadow: 0 0.65rem 1.6rem color-mix(in srgb, var(--global-text-color) 7%, transparent);
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+.education-card:hover {
+  border-color: color-mix(in srgb, var(--education-accent) 45%, var(--global-divider-color));
+  box-shadow: 0 0.9rem 2rem color-mix(in srgb, var(--education-accent) 16%, transparent);
+  transform: translateY(-3px);
+}
+
+.education-logo-panel {
+  position: relative;
+  display: grid;
+  min-height: 9.4rem;
+  padding: 1.6rem;
+  overflow: hidden;
+  place-items: center;
+  background:
+    radial-gradient(circle at 88% 18%, color-mix(in srgb, var(--education-accent) 9%, transparent), transparent 30%),
+    linear-gradient(145deg, color-mix(in srgb, var(--education-accent) 5%, #fff), #fff 68%);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.education-logo-panel::after {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.6rem;
+  width: 2.8rem;
+  height: 0.22rem;
+  content: "";
+  background: var(--education-accent);
+  border-radius: 999px;
+  opacity: 0.7;
+}
+
+.education-logo-panel img {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 32rem);
+  max-height: 5.8rem;
+  object-fit: contain;
+}
+
+.education-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1.35rem 1.4rem 1.45rem;
+}
+
+.education-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.85rem;
+}
+
+.education-stage,
+.education-dates {
+  display: inline-flex;
+  gap: 0.35rem;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: 750;
+  letter-spacing: 0.045em;
+  text-transform: uppercase;
+  border-radius: 999px;
+}
+
+.education-stage {
+  padding: 0.27rem 0.62rem;
+  color: #fff;
+  background: var(--education-accent);
+}
+
+.education-dates {
+  padding: 0.25rem 0;
+  color: var(--global-text-color-light);
+}
+
+.education-card h2 {
+  min-height: 3.2rem;
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  line-height: 1.38;
+}
+
+.education-card h2 a {
+  color: var(--global-text-color);
+}
+
+.education-card h2 a:hover {
+  color: var(--education-accent);
+}
+
+.education-facts {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.education-fact {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.7rem;
+  align-items: start;
+}
+
+.education-fact-icon {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.78rem;
+  color: var(--education-accent);
+  place-items: center;
+  background: color-mix(in srgb, var(--education-accent) 10%, transparent);
+  border-radius: 0.55rem;
+}
+
+.education-fact-label,
+.education-fact-value,
+.education-disciplines-label {
+  display: block;
+}
+
+.education-fact-label,
+.education-disciplines-label {
+  margin-bottom: 0.14rem;
+  font-size: 0.64rem;
+  font-weight: 750;
+  color: var(--education-accent);
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+.education-fact-value {
+  font-size: 0.85rem;
+  line-height: 1.42;
+  color: var(--global-text-color);
+}
+
+.education-disciplines {
+  padding-top: 0.9rem;
+  margin-top: auto;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.education-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.education-tags span {
+  padding: 0.28rem 0.58rem;
+  font-size: 0.72rem;
+  color: var(--education-accent);
+  background: color-mix(in srgb, var(--education-accent) 9%, transparent);
+  border: 1px solid color-mix(in srgb, var(--education-accent) 20%, transparent);
+  border-radius: 999px;
+}
+
+@media (width <= 780px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .education-card h2 {
+    min-height: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .education-card {
+    transition: none;
+  }
+
+  .education-card:hover {
+    transform: none;
+  }
+}

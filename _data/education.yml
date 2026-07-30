@@ -1,0 +1,28 @@
+# Official logo source: https://www.ict.ac.cn/images/header_ict.png
+- slug: ict
+  institution: Institute of Computing Technology, Chinese Academy of Sciences
+  short_name: ICT, CAS
+  stage: Graduate Study
+  dates: 2024.09 – Present
+  unit: High-Throughput Computer Research Center
+  discipline: Computer Science and Technology
+  degree: M.S.–Ph.D. Student
+  logo: /assets/img/education/ict-logo.png
+  website: https://www.ict.ac.cn/
+  accent: "#1477b9"
+
+# Official logo source: https://www.ustc.edu.cn/news/images/logo.svg
+- slug: ustc
+  institution: University of Science and Technology of China
+  short_name: USTC
+  stage: Undergraduate Study
+  dates: 2020.09 – 2024.06
+  unit: School of Computer Science and Technology
+  program: Hua Xia Talent Program in Computer Science and Technology
+  degree: Dual Bachelor's Degrees
+  disciplines:
+    - Computer Science and Technology
+    - Finance
+  logo: /assets/img/education/ustc-logo.svg
+  website: https://www.ustc.edu.cn/
+  accent: "#0755a5"
