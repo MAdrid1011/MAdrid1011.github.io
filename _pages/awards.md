@@ -50,10 +50,13 @@ nav_order: 3
 
   <section class="award-grid" aria-label="Honors and awards">
     {% for award in awards %}
-      <article class="award-card award-card-{{ award.category }}">
+      <article class="award-card award-tier-{{ award.tier }}">
         <div class="award-card-topline">
           <span class="award-card-icon"><i class="fa-solid {{ award.icon }}" aria-hidden="true"></i></span>
-          <span class="award-year">{{ award.year }}</span>
+          <span class="award-card-badges">
+            <span class="award-level">{{ award.level_label }}</span>
+            <span class="award-year">{{ award.year }}</span>
+          </span>
         </div>
         <span class="award-category">{{ award.category_label }}</span>
         <h3>{{ award.title }}</h3>

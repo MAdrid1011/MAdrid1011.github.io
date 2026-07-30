@@ -3,6 +3,8 @@
   awarder: Institute of Computing Technology, Chinese Academy of Sciences
   category: scholarship
   category_label: Scholarship
+  tier: institute
+  level_label: Institute Level
   icon: fa-award
 
 - year: "2024"
@@ -10,6 +12,8 @@
   awarder: Institute of Computing Technology, Chinese Academy of Sciences
   category: scholarship
   category_label: Scholarship
+  tier: institute
+  level_label: Institute Level
   icon: fa-graduation-cap
 
 - year: "2024–25"
@@ -17,6 +21,8 @@
   awarder: University of Chinese Academy of Sciences
   category: academic
   category_label: Academic Honor
+  tier: university
+  level_label: University Level
   icon: fa-star
   summary: Recognized in both 2024 and 2025.
 
@@ -25,13 +31,17 @@
   awarder: Anhui Computer Federation
   category: academic
   category_label: Thesis Distinction
+  tier: provincial
+  level_label: Provincial Level
   icon: fa-book-open
 
 - year: "2022"
   title: National Runner-up, LoongArch Track
   awarder: 6th “Loongson Cup” National Student Computer System Capability Challenge
   category: competition
-  category_label: National Competition
+  category_label: Competition
+  tier: national
+  level_label: National Level
   icon: fa-medal
 
 - year: "2022"
@@ -39,6 +49,8 @@
   awarder: Suzhou Yucai Scholarship Program
   category: scholarship
   category_label: Scholarship
+  tier: municipal
+  level_label: Municipal Level
   icon: fa-award
 
 - year: "2022"
@@ -46,6 +58,8 @@
   awarder: University of Science and Technology of China
   category: service
   category_label: Teaching
+  tier: university
+  level_label: University Level
   icon: fa-chalkboard-user
 
 - year: "2022"
@@ -53,6 +67,8 @@
   awarder: University of Science and Technology of China
   category: service
   category_label: Leadership
+  tier: university
+  level_label: University Level
   icon: fa-user-group
 
 - year: "2020, 2021 & 2023"
@@ -60,5 +76,7 @@
   awarder: University of Science and Technology of China
   category: scholarship
   category_label: Scholarship
+  tier: university
+  level_label: University Level
   icon: fa-graduation-cap
   summary: Awarded in three academic years.
