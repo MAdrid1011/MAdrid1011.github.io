@@ -12,6 +12,9 @@
     - Summer Camp
   icon: microchip
   accent: "#b23a48"
+  poster: /assets/img/teaching/summer-camp-lecture.png
+  poster_alt: Processor design lecture at the USTC–Minjiang University Loongson Cup Summer Camp
+  poster_fit: cover
 
 - slug: post-gpu-lecture
   year: "2026"
@@ -61,6 +64,9 @@
     - Project Guidance
   icon: computer
   accent: "#0755a5"
+  poster: /assets/img/teaching/computer-organization.png
+  poster_alt: Official COD Lab course logo
+  poster_fit: contain
 
 - slug: computing-systems-practice
   year: "2023"
@@ -76,6 +82,9 @@
     - Laboratory Design
   icon: code
   accent: "#c2410c"
+  poster: /assets/img/teaching/comprehensive-computing-system.png
+  poster_alt: Official Comprehensive Computing System course logo
+  poster_fit: contain
 
 - slug: circuit-experiments
   year: "2022–23"
@@ -91,3 +100,6 @@
     - Laboratory Teaching
   icon: wave-square
   accent: "#a16207"
+  poster: /assets/img/teaching/digital-lab-advanced.png
+  poster_alt: Official Digital Lab Advanced course logo
+  poster_fit: contain

@@ -72,6 +72,16 @@
   object-position: center top;
 }
 
+.teaching-poster-contain {
+  background: radial-gradient(circle at 88% 15%, color-mix(in srgb, var(--teaching-accent) 10%, transparent), transparent 35%), #fff;
+}
+
+.teaching-poster-contain img {
+  padding: 0.7rem;
+  object-fit: contain;
+  object-position: center;
+}
+
 .teaching-poster-hint {
   position: absolute;
   right: 0.65rem;

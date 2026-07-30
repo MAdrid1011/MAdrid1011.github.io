@@ -13,9 +13,9 @@ nav_order: 5
   {% for item in site.data.teaching %}
     <article class="teaching-card" style="--teaching-accent: {{ item.accent }};">
       {% if item.poster %}
-        <div class="teaching-visual teaching-poster">
+        <div class="teaching-visual teaching-poster teaching-poster-{{ item.poster_fit | default: 'cover' }}">
           <img src="{{ item.poster | relative_url }}" alt="{{ item.poster_alt }}" data-zoomable loading="lazy">
-          <span class="teaching-poster-hint" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i> View poster</span>
+          <span class="teaching-poster-hint" aria-hidden="true"><i class="fa-solid fa-magnifying-glass-plus"></i> View image</span>
         </div>
       {% else %}
         <div class="teaching-visual" aria-hidden="true">
