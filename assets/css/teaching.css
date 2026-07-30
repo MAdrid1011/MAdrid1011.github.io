@@ -166,14 +166,10 @@
   color: var(--global-text-color-light);
 }
 
-.teaching-footer,
-.teaching-tags {
+.teaching-footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-}
-
-.teaching-footer {
   justify-content: space-between;
   gap: 0.9rem;
   padding-top: 0.85rem;
@@ -181,7 +177,10 @@
 }
 
 .teaching-tags {
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.4rem;
+  align-items: center;
 }
 
 .teaching-tags span {
@@ -195,15 +194,15 @@
 
 .teaching-link {
   flex: 0 0 auto;
-  color: var(--teaching-accent);
-  font-size: 0.75rem;
+  color: var(--teaching-accent) !important;
+  font-size: 0.82rem;
   font-weight: 750;
   white-space: nowrap;
 }
 
 .teaching-link i {
   margin-left: 0.25rem;
-  font-size: 0.66rem;
+  font-size: 0.7rem;
 }
 
 @media (width <= 650px) {
