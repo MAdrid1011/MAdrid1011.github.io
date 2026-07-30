@@ -8,12 +8,9 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Institute of Computing Technology</p>
-    <p>Chinese Academy of Sciences</p>
-    <p>Beijing, China</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers_title: Featured Work
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a doctoral student at the High-Throughput Computer Research Center, Institute of Computing Technology, Chinese Academy of Sciences. I received dual bachelor's degrees in Computer Science and Technology and Finance from the University of Science and Technology of China.
+I am a doctoral student at the [**High-Throughput Computer Research Center**](https://ict.cas.cn/jssgk/zzjg/kyxt/gtljsj/), [**Institute of Computing Technology, Chinese Academy of Sciences**](https://english.ict.cas.cn/). I received dual bachelor's degrees in Computer Science and Technology and Finance from the [**University of Science and Technology of China**](https://en.ustc.edu.cn/).
 
 My research interests include **computer architecture**, **domain-specific accelerators**, **RISC-V processor design**, and **dataflow systems**. I enjoy building complete systems that connect architectural ideas with RTL implementation, simulation infrastructure, FPGA validation, and software toolchains.
 
