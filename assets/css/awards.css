@@ -1,5 +1,4 @@
 .awards-showcase {
-  --award-institute: #64748b;
   --award-municipal: #0f766e;
   --award-national: #b45309;
   --award-provincial: #7e22ce;
@@ -185,10 +184,6 @@
 .award-card:hover {
   box-shadow: 0 0.8rem 1.7rem color-mix(in srgb, var(--award-accent) 16%, transparent);
   transform: translateY(-3px);
-}
-
-.award-tier-institute {
-  --award-accent: var(--award-institute);
 }
 
 .award-tier-municipal {

@@ -3,7 +3,7 @@
   awarder: Institute of Computing Technology, Chinese Academy of Sciences
   category: scholarship
   category_label: Scholarship
-  tier: institute
+  tier: university
   level_label: Institute
   icon: fa-award
 
@@ -12,7 +12,7 @@
   awarder: Institute of Computing Technology, Chinese Academy of Sciences
   category: scholarship
   category_label: Scholarship
-  tier: institute
+  tier: university
   level_label: Institute
   icon: fa-graduation-cap
 
