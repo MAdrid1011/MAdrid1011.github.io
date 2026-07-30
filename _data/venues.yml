@@ -1,9 +1,19 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"MICRO'26":
+  url: https://microarch.org/micro59/
+  color: "#7b2cbf"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"DAC'26":
+  url: https://dac.com/2026/
+  color: "#7b2cbf"
 
-"Vision":
-  color: "#009f36"
+"ISCA'26":
+  url: https://www.iscaconf.org/isca2026/
+  color: "#7b2cbf"
+
+"JCST'26":
+  url: https://jcst.ict.ac.cn/
+  color: "#7b2cbf"
+
+"CAL'26":
+  url: https://www.computer.org/csdl/journal/ca
+  color: "#7b2cbf"
