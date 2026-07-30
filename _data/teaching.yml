@@ -1,0 +1,89 @@
+- slug: loongson-summer-camp
+  year: "2026"
+  date: July 2026
+  type: Invited Training
+  role: Invited Lecturer
+  title: Processor Design for the 10th Loongson Cup
+  venue: USTC–Minjiang University Loongson Cup Summer Camp
+  description: Delivered specialized training on processor design to undergraduates from USTC and Minjiang University participating in the 10th Loongson Cup.
+  tags:
+    - Processor Design
+    - Loongson Cup
+    - Summer Camp
+  icon: microchip
+  accent: "#b23a48"
+
+- slug: post-gpu-lecture
+  year: "2026"
+  date: May 2026
+  type: Invited Lecture
+  role: Speaker
+  title: Strategies and Implementations for AI Hardware Acceleration in the Post-GPU Era
+  venue: “Technical Expert in the Classroom” Lecture Series, USTC
+  description: Presented an invited lecture for USTC undergraduates on architectural strategies and implementation paths for emerging AI acceleration.
+  tags:
+    - AI Accelerators
+    - Computer Architecture
+    - Hardware Design
+  icon: brain
+  accent: "#7c3aed"
+
+- slug: risc-v-lecture
+  year: "2025"
+  date: May 2025
+  type: Invited Lecture
+  role: Speaker
+  title: Analysis and Design of the RISC-V Privileged Architecture
+  venue: “Technical Expert in the Classroom” Lecture Series, USTC
+  description: Presented an invited lecture for USTC undergraduates on the structure, mechanisms, and implementation of the RISC-V privileged architecture.
+  tags:
+    - RISC-V
+    - Privileged Architecture
+    - Processor Design
+  icon: diagram-project
+  accent: "#0f766e"
+
+- slug: computer-organization
+  year: "2023–24"
+  date: 2023 & 2024
+  type: Course Teaching
+  role: Teaching Assistant
+  title: Principles of Computer Organization
+  venue: University of Science and Technology of China
+  description: Mentored more than ten undergraduates whose projects received one First Prize, two Second Prizes, and seven Third Prizes in the Loongson Cup.
+  tags:
+    - Computer Organization
+    - Student Mentoring
+    - Project Guidance
+  icon: computer
+  accent: "#0755a5"
+
+- slug: computing-systems-practice
+  year: "2023"
+  date: 2023
+  type: Course Teaching
+  role: Teaching Assistant
+  title: Comprehensive Practice of Computing Systems
+  venue: University of Science and Technology of China
+  description: Led the design of the course content and experimental framework for hands-on computing systems education.
+  tags:
+    - Computing Systems
+    - Curriculum Design
+    - Laboratory Design
+  icon: code
+  accent: "#c2410c"
+
+- slug: circuit-experiments
+  year: "2022–23"
+  date: 2022 & 2023
+  type: Course Teaching
+  role: Teaching Assistant
+  title: Advanced Analog and Digital Circuit Experiments
+  venue: University of Science and Technology of China
+  description: Supported the advanced sections of the laboratory course and guided students through circuit experiments and system-level implementation.
+  tags:
+    - Digital Circuits
+    - Analog Circuits
+    - Laboratory Teaching
+  icon: wave-square
+  accent: "#a16207"
