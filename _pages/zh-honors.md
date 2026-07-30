@@ -1,20 +1,20 @@
 ---
 layout: page
-permalink: /honors/
-title: Honors
-description: Academic honors, scholarships, and competition distinctions.
+permalink: /zh/honors/
+title: 荣誉
+description: 奖学金、学术荣誉、教学表彰与学科竞赛成绩。
 nav: true
 nav_order: 3
-lang: en
-translation_url: /zh/honors/
+lang: zh-CN
+translation_url: /honors/
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/honors.css' | relative_url }}">
 
-{% assign honors = site.data.honors %}
+{% assign honors = site.data.honors_zh %}
 
 <div class="honors-showcase">
-  <section class="honor-grid" aria-label="Honors">
+  <section class="honor-grid" aria-label="荣誉">
     {% for honor in honors %}
       <article class="honor-card honor-tier-{{ honor.tier }}">
         <div class="honor-card-topline">

@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: Open-source processors, architecture prototypes, and peer-reviewed research artifacts.
+title: 项目
+permalink: /zh/projects/
+description: 开源处理器、体系结构原型与成熟论文开源工件。
 nav: true
 nav_order: 2
-lang: en
-translation_url: /zh/projects/
+lang: zh-CN
+translation_url: /projects/
 ---
 
 {% if site.data.repositories.github_users %}
 
-## Open-source Profile
+## 开源项目主页
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
@@ -39,7 +39,7 @@ translation_url: /zh/projects/
 
 {% if site.data.repositories.github_repos %}
 
-## Open-source Repositories
+## 开源仓库
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}

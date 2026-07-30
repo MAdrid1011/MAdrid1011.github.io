@@ -1,0 +1,22 @@
+- year: "2026"
+  date: 2026 年
+  category: 程序委员会
+  role: 工件评估程序委员会委员
+  venue: 第 59 届 IEEE/ACM 国际微体系结构研讨会（MICRO 2026）
+  description: 担任 MICRO 2026 工件评估委员会委员，参与会议研究工件的评估工作。
+  tags:
+    - 工件评估
+    - 程序委员会
+    - MICRO
+  icon: box-open
+  accent: "#7c3aed"
+  url: https://microarch.org/micro59/
+  image: /assets/img/service/micro2026-banner.jpg
+  image_alt: MICRO 2026 官方首页的雅典城市天际线横幅
+  image_label: MICRO 2026
+  conference_name: MICRO 2026
+  conference_full_name: 第 59 届 IEEE/ACM 国际微体系结构研讨会
+  event_dates: 2026 年 10 月 31 日至 11 月 4 日
+  event_location: 希腊·雅典
+  image_credit: "摄影：Diego Delso · CC BY-SA 3.0"
+  image_credit_url: https://creativecommons.org/licenses/by-sa/3.0/

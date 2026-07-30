@@ -14,5 +14,9 @@
   image: /assets/img/service/micro2026-banner.jpg
   image_alt: Athens skyline from the MICRO 2026 official homepage banner
   image_label: MICRO 2026
+  conference_name: MICRO 2026
+  conference_full_name: 59th IEEE/ACM International Symposium on Microarchitecture
+  event_dates: October 31–November 4, 2026
+  event_location: Athens, Greece
   image_credit: "Photo: Diego Delso · CC BY-SA 3.0"
   image_credit_url: https://creativecommons.org/licenses/by-sa/3.0/

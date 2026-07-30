@@ -1,0 +1,30 @@
+- slug: ict
+  institution: 中国科学院计算技术研究所
+  short_name: 计算所
+  stage: 研究生阶段
+  dates: 2024.09 – 至今
+  unit: 高通量计算机研究中心
+  advisor: 叶笑春
+  advisor_url: https://www.ict.ac.cn/sourcedb/cn/jssrck/201411/t20141115_4253437.html
+  discipline: 计算机科学与技术
+  qualification_label: 当前身份
+  qualification: 在读硕博连读生
+  logo: /assets/img/education/ict-logo.png
+  website: https://www.ict.ac.cn/
+  accent: "#b23a48"
+
+- slug: ustc
+  institution: 中国科学技术大学
+  short_name: 中国科大
+  stage: 本科阶段
+  dates: 2020.09 – 2024.06
+  unit: 计算机科学与技术学院
+  program: 华夏计算机科技英才班
+  qualification_label: 获得学位
+  qualification: 双学士学位
+  disciplines:
+    - 计算机科学与技术
+    - 金融学
+  logo: /assets/img/education/ustc-logo.svg
+  website: https://www.ustc.edu.cn/
+  accent: "#0755a5"

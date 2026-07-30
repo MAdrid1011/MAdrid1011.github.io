@@ -1,21 +1,21 @@
 ---
 layout: page
-permalink: /education/
-title: Education
-description: Academic training in computer science and technology, with interdisciplinary study in finance.
+permalink: /zh/education/
+title: 教育经历
+description: 计算机科学与技术方向的本研教育经历，以及金融学交叉学习背景。
 nav: true
 nav_order: 4
-lang: en
-translation_url: /zh/education/
+lang: zh-CN
+translation_url: /education/
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/education.css' | relative_url }}">
 
 <div class="education-grid">
-  {% for item in site.data.education %}
+  {% for item in site.data.education_zh %}
     <article class="education-card education-card-{{ item.slug }}" style="--education-accent: {{ item.accent }};">
-      <a class="education-logo-panel" href="{{ item.website }}" aria-label="Visit {{ item.institution }} website">
-        <img src="{{ item.logo | relative_url }}" alt="{{ item.institution }} logo">
+      <a class="education-logo-panel" href="{{ item.website }}" aria-label="访问{{ item.institution }}官方网站">
+        <img src="{{ item.logo | relative_url }}" alt="{{ item.institution }}校徽或标识">
       </a>
 
       <div class="education-card-body">
@@ -30,7 +30,7 @@ translation_url: /zh/education/
           <div class="education-fact">
             <span class="education-fact-icon"><i class="fa-solid fa-building-columns" aria-hidden="true"></i></span>
             <div>
-              <span class="education-fact-label">School / Center</span>
+              <span class="education-fact-label">学院 / 中心</span>
               <span class="education-fact-value">{{ item.unit }}</span>
             </div>
           </div>
@@ -39,7 +39,7 @@ translation_url: /zh/education/
             <div class="education-fact">
               <span class="education-fact-icon"><i class="fa-solid fa-user-tie" aria-hidden="true"></i></span>
               <div>
-                <span class="education-fact-label">Advisor</span>
+                <span class="education-fact-label">导师</span>
                 <span class="education-fact-value">
                   <a href="{{ item.advisor_url }}" target="_blank" rel="noopener noreferrer">{{ item.advisor }}</a>
                 </span>
@@ -51,7 +51,7 @@ translation_url: /zh/education/
             <div class="education-fact">
               <span class="education-fact-icon"><i class="fa-solid fa-star" aria-hidden="true"></i></span>
               <div>
-                <span class="education-fact-label">Program</span>
+                <span class="education-fact-label">培养项目</span>
                 <span class="education-fact-value">{{ item.program }}</span>
               </div>
             </div>
@@ -67,7 +67,7 @@ translation_url: /zh/education/
         </div>
 
         <div class="education-disciplines">
-          <span class="education-disciplines-label">Field{% if item.disciplines %}s{% endif %}</span>
+          <span class="education-disciplines-label">专业方向</span>
           <div class="education-tags">
             {% if item.disciplines %}
               {% for discipline in item.disciplines %}

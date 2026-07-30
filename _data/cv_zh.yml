@@ -1,0 +1,105 @@
+cv:
+  name: 马子睿
+  label: 博士研究生
+  email: mazirui24s@ict.ac.cn
+  website: https://MAdrid1011.github.io
+  address:
+    city: 北京
+    region: 中国
+
+  sections:
+    Education:
+      - institution: 中国科学院计算技术研究所
+        location: 中国北京
+        url: https://www.ict.ac.cn/
+        area: 计算机科学与技术 · 高通量计算机研究中心
+        studyType: 在读硕博连读生
+        start_date: 2024-09
+        end_date: 至今
+        highlights:
+          - "导师：[叶笑春](https://www.ict.ac.cn/sourcedb/cn/jssrck/201411/t20141115_4253437.html)"
+      - institution: 中国科学技术大学
+        location: 中国合肥
+        url: https://www.ustc.edu.cn/
+        area: 计算机科学与技术、金融学 · 华夏计算机科技英才班
+        studyType: 双学士学位
+        start_date: 2020-09
+        end_date: 2024-06
+
+    Publications:
+      - title: "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow"
+        publisher: MICRO 2026 · CCF-A · 已接收
+        releaseDate: 2026
+        url: https://github.com/MAdrid1011/SCARF
+        summary: "**马子睿**、范志华、吴海彬、李文兴、张福林、范东睿、叶笑春、李文明。"
+      - title: "AHASD: Asynchronous Heterogeneous Architecture for LLM Adaptive Drafting Speculative Decoding on Mobile Devices"
+        publisher: DAC 2026 · CCF-A · 已接收
+        releaseDate: 2026
+        url: https://doi.org/10.1145/3770743.3803965
+        summary: "**马子睿**、范志华、李文兴、吴海彬、张福林、叶笑春、李文明。"
+      - title: "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures"
+        publisher: ISCA 2026 · CCF-A · 已接收 · 最佳论文提名
+        releaseDate: 2026
+        url: https://www.iscaconf.org/isca2026/program/
+        summary: "吴海彬、李文明、范志华、**马子睿**、刘宇群、夏腾飞、刘彦欢、张昆明、叶笑春、范东睿、翁健。"
+      - title: "HARLD: A RISC-V Based Tightly Coupled Heterogeneous Computing Architecture for Low-Density Parity Check Decoding"
+        publisher: Journal of Computer Science and Technology · CCF-B · 已发表
+        releaseDate: 2026
+        url: https://doi.org/10.1007/s11390-025-5052-5
+        summary: "王兵、**马子睿**、吴海彬、张福林、王越、范志华、李文明、叶笑春、范东睿。"
+      - title: "BISC: Rethinking Instruction Set Abstractions at Block Granularity"
+        publisher: IEEE Computer Architecture Letters · 已发表
+        releaseDate: 2026
+        url: https://researchportal.hkust.edu.hk/en/publications/bisc-rethinking-instruction-set-abstractions-at-block-granularity/
+        summary: "钟安、胡涵之、**马子睿**、李梦竹、吴海彬、张福林、邓锦毅、徐策宇、李文明、胡扬、翁健。"
+
+    Honors and Awards:
+      - title: 计算技术研究所所长优秀奖学金
+        date: "2025"
+        awarder: 中国科学院计算技术研究所
+      - title: 优秀学生
+        date: "2025"
+        awarder: 处理器全国重点实验室
+      - title: 易方达新生奖学金
+        date: "2024"
+        awarder: 中国科学院计算技术研究所
+      - title: 优秀学生
+        date: "2024 & 2025"
+        awarder: 中国科学院大学
+      - title: 优秀本科毕业论文
+        date: "2024"
+        awarder: 安徽省计算机学会
+        summary: 当年中国科学技术大学唯一获奖本科生。
+      - title: LoongArch 挑战赛道全国亚军
+        date: "2022"
+        awarder: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛
+        summary: 中国科学技术大学首次在该赛道获奖。
+      - title: 苏州育才奖学金
+        date: "2022"
+        awarder: 苏州育才奖学金项目
+      - title: 优秀助教
+        date: "2022"
+        awarder: 中国科学技术大学
+        summary: 获评比例不超过全校助教总数的 7%。
+      - title: 优秀学生干部
+        date: "2022"
+        awarder: 中国科学技术大学
+      - title: 优秀学生奖学金（银奖）
+        date: "2020, 2021 & 2023"
+        awarder: 中国科学技术大学
+
+    Patents:
+      - bullet: "**马子睿**、吴海彬、李文明、叶笑春：*一种支持核内前后端动态解耦与重构的处理器*。（实质性审查中）"
+      - bullet: "**马子睿**、范志华、李文明、叶笑春：*一种面向推测解码的草稿状态感知存内计算命令调度方法及系统*。（已提交）"
+
+    Academic Service:
+      - bullet: "**工件评估程序委员会委员：**MICRO 2026。"
+
+    Teaching:
+      - bullet: "**2026 · 主讲教师：**面向中国科大与闽江大学本科生开展第十届“龙芯杯”处理器设计专题培训。"
+      - bullet: "**2025–2026 · 受邀主讲人：**在中国科大计算机学院“技术专家进课堂”系列中主讲 RISC-V 特权架构与后 GPU 时代人工智能硬件加速。"
+      - bullet: "**2022–2024 · 课程助教：**参与模拟与数字电路实验、计算机组成原理和计算系统综合实验教学；指导十余名本科生获得“龙芯杯”一等奖 1 项、二等奖 2 项、三等奖 7 项。"
+
+    Student Leadership:
+      - bullet: "**2022–2023 · 中国科学技术大学学生合唱团团长：**组织 2022 年新年音乐会、2023 年毕业音乐会，并组织参与中央广播电视总台《闪亮的名字》与浙江卫视《天赐的声音》节目录制。"
+      - bullet: "**2020–2024 · 班长兼副团支书：**中国科学技术大学计算机科学与技术学院 2024 届本科 1 班。"

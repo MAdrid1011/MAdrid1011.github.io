@@ -1,22 +1,22 @@
 ---
 layout: page
-permalink: /service/
-title: Service
-description: Academic service and reviewing activities.
+permalink: /zh/service/
+title: 学术服务
+description: 程序委员会与同行评审相关学术服务经历。
 nav: true
 nav_order: 6
-lang: en
-translation_url: /zh/service/
+lang: zh-CN
+translation_url: /service/
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/service.css' | relative_url }}">
 
 <div class="service-list">
-  {% for item in site.data.service %}
+  {% for item in site.data.service_zh %}
     <article class="service-card" style="--service-accent: {{ item.accent }};">
       {% if item.image %}
         <div class="service-visual">
-          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit the {{ item.image_label }} website">
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="访问 {{ item.image_label }} 官方网站">
             <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt }}" loading="lazy">
             {% if item.conference_name %}
               <span class="service-conference-overlay">
@@ -49,14 +49,14 @@ translation_url: /zh/service/
         <p class="service-venue">{{ item.venue }}</p>
         <p>{{ item.description }}</p>
         <div class="service-footer">
-          <div class="service-tags" aria-label="Service categories">
+          <div class="service-tags" aria-label="学术服务类别">
             {% for tag in item.tags %}
               <span>{{ tag }}</span>
             {% endfor %}
           </div>
           {% if item.url %}
             <a class="service-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
-              Conference Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              会议官网 <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
             </a>
           {% endif %}
         </div>
