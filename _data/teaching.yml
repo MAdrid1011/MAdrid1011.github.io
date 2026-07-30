@@ -48,7 +48,7 @@
   date: 2023 & 2024
   type: Course Teaching
   role: Teaching Assistant
-  title: Principles of Computer Organization
+  title: Computer Organization
   venue: University of Science and Technology of China
   description: Mentored more than ten undergraduates whose projects received one First Prize, two Second Prizes, and seven Third Prizes in the Loongson Cup.
   tags:
@@ -63,7 +63,7 @@
   date: 2023
   type: Course Teaching
   role: Teaching Assistant
-  title: Comprehensive Practice of Computing Systems
+  title: Comprehensive Experiment Of Computing System
   venue: University of Science and Technology of China
   description: Led the design of the course content and experimental framework for hands-on computing systems education.
   tags:
@@ -78,7 +78,7 @@
   date: 2022 & 2023
   type: Course Teaching
   role: Teaching Assistant
-  title: Advanced Analog and Digital Circuit Experiments
+  title: Syllabus of Digital Logic Lab
   venue: University of Science and Technology of China
   description: Supported the advanced sections of the laboratory course and guided students through circuit experiments and system-level implementation.
   tags:
