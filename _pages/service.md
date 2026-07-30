@@ -7,6 +7,39 @@ nav: true
 nav_order: 6
 ---
 
-## Program Committees
+<link rel="stylesheet" href="{{ '/assets/css/service.css' | relative_url }}">
 
-- **Artifact Evaluation Program Committee Member:** MICRO 2026
+<div class="service-list">
+  {% for item in site.data.service %}
+    <article class="service-card" style="--service-accent: {{ item.accent }};">
+      <div class="service-marker" aria-hidden="true">
+        <span class="service-year">{{ item.year }}</span>
+        <span class="service-icon"><i class="fa-solid fa-{{ item.icon }}"></i></span>
+      </div>
+
+      <div class="service-content">
+        <div class="service-meta">
+          <span>{{ item.category }}</span>
+          <span><i class="fa-regular fa-calendar" aria-hidden="true"></i>{{ item.date }}</span>
+        </div>
+        <h2>{{ item.role }}</h2>
+        <p class="service-venue">{{ item.venue }}</p>
+        <p>{{ item.description }}</p>
+        <div class="service-footer">
+          <div class="service-tags" aria-label="Service categories">
+            {% for tag in item.tags %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% if item.url %}
+            <a class="service-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+              Conference Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          {% endif %}
+        </div>
+      </div>
+    </article>
+
+{% endfor %}
+
+</div>

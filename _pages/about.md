@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Doctoral Student · Computer Architecture · Open-Source Processor Design
+subtitle: Doctoral Student · Computer Architecture · Institute of Computing Technology
 
 profile:
   align: right

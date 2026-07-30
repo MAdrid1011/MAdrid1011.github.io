@@ -1,0 +1,13 @@
+- year: "2026"
+  date: 2026
+  category: Program Committee
+  role: Artifact Evaluation Program Committee Member
+  venue: 59th IEEE/ACM International Symposium on Microarchitecture (MICRO 2026)
+  description: Serving on the Artifact Evaluation Committee and contributing to the evaluation of research artifacts for MICRO 2026.
+  tags:
+    - Artifact Evaluation
+    - Program Committee
+    - MICRO
+  icon: box-open
+  accent: "#7c3aed"
+  url: https://microarch.org/micro59/
