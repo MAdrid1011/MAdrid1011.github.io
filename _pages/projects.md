@@ -1,7 +1,7 @@
 ---
 layout: page
-title: research
-permalink: /research/
+title: projects
+permalink: /projects/
 description: Open-source processors, architecture prototypes, and systems projects.
 nav: true
 nav_order: 2
