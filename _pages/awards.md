@@ -1,0 +1,58 @@
+---
+layout: page
+permalink: /awards/
+title: awards
+description: Academic honors, scholarships, and competition distinctions.
+nav: true
+nav_order: 3
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/awards.css' | relative_url }}">
+
+{% assign awards = site.data.awards %}
+{% assign scholarships = awards | where: 'category', 'scholarship' %}
+
+<div class="awards-showcase">
+  <section class="award-overview" aria-label="Awards overview">
+    <div class="award-stat">
+      <span class="award-stat-icon"><i class="fa-solid fa-trophy" aria-hidden="true"></i></span>
+      <span class="award-stat-value">{{ awards | size }}</span>
+      <span class="award-stat-label">Recognitions</span>
+    </div>
+    <div class="award-stat">
+      <span class="award-stat-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
+      <span class="award-stat-value">{{ scholarships | size }}</span>
+      <span class="award-stat-label">Scholarships</span>
+    </div>
+    <div class="award-stat">
+      <span class="award-stat-icon"><i class="fa-solid fa-calendar" aria-hidden="true"></i></span>
+      <span class="award-stat-value award-stat-value-text">2020–2025</span>
+      <span class="award-stat-label">Years of Recognition</span>
+    </div>
+  </section>
+
+  <div class="award-section-heading">
+    <div>
+      <span class="award-kicker">Honors & Distinctions</span>
+      <h2>Academic journey</h2>
+    </div>
+    <p>Scholarships, academic distinctions, teaching recognition, and leadership honors.</p>
+  </div>
+
+  <section class="award-grid" aria-label="Honors and awards">
+    {% for award in awards %}
+      <article class="award-card award-card-{{ award.category }}">
+        <div class="award-card-topline">
+          <span class="award-card-icon"><i class="fa-solid {{ award.icon }}" aria-hidden="true"></i></span>
+          <span class="award-year">{{ award.year }}</span>
+        </div>
+        <span class="award-category">{{ award.category_label }}</span>
+        <h3>{{ award.title }}</h3>
+        <p class="award-awarder">{{ award.awarder }}</p>
+        {% if award.summary %}
+          <p class="award-summary">{{ award.summary }}</p>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </section>
+</div>

@@ -1,0 +1,64 @@
+- year: "2025"
+  title: "Director's Outstanding Scholarship"
+  awarder: Institute of Computing Technology, Chinese Academy of Sciences
+  category: scholarship
+  category_label: Scholarship
+  icon: fa-award
+
+- year: "2024"
+  title: E Fund Freshman Scholarship
+  awarder: Institute of Computing Technology, Chinese Academy of Sciences
+  category: scholarship
+  category_label: Scholarship
+  icon: fa-graduation-cap
+
+- year: "2024–25"
+  title: Outstanding Student
+  awarder: University of Chinese Academy of Sciences
+  category: academic
+  category_label: Academic Honor
+  icon: fa-star
+  summary: Recognized in both 2024 and 2025.
+
+- year: "2024"
+  title: Outstanding Undergraduate Thesis
+  awarder: Anhui Computer Federation
+  category: academic
+  category_label: Thesis Distinction
+  icon: fa-book-open
+
+- year: "2022"
+  title: National Runner-up, LoongArch Track
+  awarder: 6th “Loongson Cup” National Student Computer System Capability Challenge
+  category: competition
+  category_label: National Competition
+  icon: fa-medal
+
+- year: "2022"
+  title: Suzhou Yucai Scholarship
+  awarder: Suzhou Yucai Scholarship Program
+  category: scholarship
+  category_label: Scholarship
+  icon: fa-award
+
+- year: "2022"
+  title: Outstanding Teaching Assistant
+  awarder: University of Science and Technology of China
+  category: service
+  category_label: Teaching
+  icon: fa-chalkboard-user
+
+- year: "2022"
+  title: Outstanding Student Leader
+  awarder: University of Science and Technology of China
+  category: service
+  category_label: Leadership
+  icon: fa-user-group
+
+- year: "2020, 2021 & 2023"
+  title: Outstanding Student Scholarship, Silver Award
+  awarder: University of Science and Technology of China
+  category: scholarship
+  category_label: Scholarship
+  icon: fa-graduation-cap
+  summary: Awarded in three academic years.
