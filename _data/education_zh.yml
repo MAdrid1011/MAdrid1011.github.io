@@ -23,10 +23,10 @@
   unit: 计算机科学与技术学院
   program: 华夏计算机科技英才班
   qualification_label: 获得学位
-  qualification: 双学士学位
+  qualification: 计算机科学与技术主修学士学位、金融学辅修学士学位
   disciplines:
-    - 计算机科学与技术
-    - 金融学
+    - 计算机科学与技术（主修）
+    - 金融学（辅修）
   logo: /assets/img/education/ustc-logo.svg
   logo_width: 470
   logo_height: 90

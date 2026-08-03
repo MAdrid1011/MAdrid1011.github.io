@@ -21,8 +21,8 @@ cv:
       - institution: 中国科学技术大学
         location: 中国合肥
         url: https://www.ustc.edu.cn/
-        area: 计算机科学与技术、金融学 · 华夏计算机科技英才班
-        studyType: 双学士学位
+        area: 计算机科学与技术（主修）、金融学（辅修） · 华夏计算机科技英才班
+        studyType: 计算机科学与技术主修学士学位、金融学辅修学士学位
         start_date: 2020-09
         end_date: 2024-06
 

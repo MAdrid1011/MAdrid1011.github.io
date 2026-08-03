@@ -25,10 +25,10 @@
   unit: School of Computer Science and Technology
   program: Hua Xia Talent Program in Computer Science and Technology
   qualification_label: Degrees Earned
-  qualification: Dual Bachelor's Degrees
+  qualification: Bachelor's Degree in Computer Science and Technology (Major); Bachelor's Degree in Finance (Minor)
   disciplines:
-    - Computer Science and Technology
-    - Finance
+    - Computer Science and Technology (Major)
+    - Finance (Minor)
   logo: /assets/img/education/ustc-logo.svg
   logo_width: 470
   logo_height: 90
