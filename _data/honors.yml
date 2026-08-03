@@ -1,92 +1,72 @@
 - year: "2025"
-  title: "Director's Outstanding Scholarship"
-  awarder: Institute of Computing Technology, Chinese Academy of Sciences
+  title: Director's Outstanding Scholarship, Institute of Computing Technology
   category: scholarship
   category_label: Scholarship
-  tier: university
+  tier: institutional
   level_label: Institute
-  icon: fa-award
 
 - year: "2025"
-  title: Outstanding Student
-  awarder: State Key Laboratory of Processors
-  category: academic
-  category_label: Academic Honor
-  tier: university
+  title: Outstanding Student, State Key Laboratory of Processors
+  category: student
+  category_label: Student Evaluation
+  tier: institutional
   level_label: Institute
-  icon: fa-star
 
 - year: "2024"
-  title: E Fund Freshman Scholarship
-  awarder: Institute of Computing Technology, Chinese Academy of Sciences
+  title: E Fund Freshman Scholarship, Institute of Computing Technology
   category: scholarship
   category_label: Scholarship
-  tier: university
+  tier: institutional
   level_label: Institute
-  icon: fa-graduation-cap
 
-- year: "2024 & 2025"
-  title: Outstanding Student
-  awarder: University of Chinese Academy of Sciences
-  category: academic
-  category_label: Academic Honor
-  tier: university
+- year: "2024, 2025"
+  title: Outstanding Student, University of Chinese Academy of Sciences
+  category: student
+  category_label: Student Evaluation
+  tier: institutional
   level_label: University
-  icon: fa-star
 
 - year: "2024"
-  title: Outstanding Undergraduate Thesis
-  awarder: Anhui Computer Federation
-  category: academic
-  category_label: Thesis Distinction
+  title: Outstanding Undergraduate Thesis, Anhui Computer Federation
+  category: thesis
+  category_label: Undergraduate Thesis
   tier: provincial
   level_label: Provincial
-  icon: fa-book-open
-  summary: The only USTC undergraduate recipient selected that year.
+  summary: The only USTC undergraduate recipient selected that year
 
 - year: "2022"
-  title: National Runner-up, LoongArch Track
-  awarder: 6th “Loongson Cup” National Student Computer System Capability Challenge
+  title: National Runner-up in the LoongArch Track, 6th “Loongson Cup” National Student Computer System Capability Challenge
   category: competition
   category_label: Competition
   tier: national
   level_label: National
-  icon: fa-medal
-  summary: USTC's first award in the LoongArch Track.
+  summary: USTC's first award in the LoongArch Track
 
 - year: "2022"
   title: Suzhou Yucai Scholarship
-  awarder: Suzhou Yucai Scholarship Program
   category: scholarship
   category_label: Scholarship
   tier: municipal
   level_label: Municipal
-  icon: fa-award
 
 - year: "2022"
-  title: Outstanding Teaching Assistant
-  awarder: University of Science and Technology of China
-  category: service
+  title: Outstanding Teaching Assistant, University of Science and Technology of China
+  category: teaching
   category_label: Teaching
-  tier: university
+  tier: institutional
   level_label: University
-  icon: fa-chalkboard-user
-  summary: Selected from no more than 7% of teaching assistants at USTC.
+  summary: Selected from no more than 7% of teaching assistants at USTC
 
 - year: "2022"
-  title: Outstanding Student Leader
-  awarder: University of Science and Technology of China
-  category: service
-  category_label: Leadership
-  tier: university
+  title: Outstanding Student Leader, University of Science and Technology of China
+  category: leadership
+  category_label: Student Leadership
+  tier: institutional
   level_label: University
-  icon: fa-user-group
 
-- year: "2020, 2021 & 2023"
-  title: Outstanding Student Scholarship, Silver Award
-  awarder: University of Science and Technology of China
+- year: "2020, 2021, 2023"
+  title: Outstanding Student Scholarship (Silver Award), University of Science and Technology of China
   category: scholarship
   category_label: Scholarship
-  tier: university
+  tier: institutional
   level_label: University
-  icon: fa-graduation-cap

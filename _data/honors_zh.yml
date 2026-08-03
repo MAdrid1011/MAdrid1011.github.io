@@ -1,92 +1,72 @@
 - year: "2025"
   title: 计算技术研究所所长优秀奖学金
-  awarder: 中国科学院计算技术研究所
   category: scholarship
   category_label: 奖学金
-  tier: university
+  tier: institutional
   level_label: 所级
-  icon: fa-award
 
 - year: "2025"
-  title: 优秀学生
-  awarder: 处理器全国重点实验室
-  category: academic
-  category_label: 学术荣誉
-  tier: university
+  title: 处理器全国重点实验室优秀学生
+  category: student
+  category_label: 学生评优
+  tier: institutional
   level_label: 所级
-  icon: fa-star
 
 - year: "2024"
-  title: 易方达新生奖学金
-  awarder: 中国科学院计算技术研究所
+  title: 计算技术研究所易方达新生奖学金
   category: scholarship
   category_label: 奖学金
-  tier: university
+  tier: institutional
   level_label: 所级
-  icon: fa-graduation-cap
 
-- year: "2024 & 2025"
-  title: 优秀学生
-  awarder: 中国科学院大学
-  category: academic
-  category_label: 学术荣誉
-  tier: university
+- year: "2024、2025"
+  title: 中国科学院大学优秀学生
+  category: student
+  category_label: 学生评优
+  tier: institutional
   level_label: 校级
-  icon: fa-star
 
 - year: "2024"
-  title: 优秀本科毕业论文
-  awarder: 安徽省计算机学会
-  category: academic
-  category_label: 论文荣誉
+  title: 安徽省计算机学会优秀本科毕业论文
+  category: thesis
+  category_label: 毕业论文
   tier: provincial
   level_label: 省级
-  icon: fa-book-open
-  summary: 2024年中国科学技术大学唯一获该奖本科生。
+  summary: 2024 年中国科学技术大学唯一获该奖本科生
 
 - year: "2022"
-  title: LoongArch 挑战赛道全国亚军
-  awarder: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛
+  title: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛 LoongArch 挑战赛道全国亚军
   category: competition
   category_label: 学科竞赛
   tier: national
   level_label: 国家级
-  icon: fa-medal
-  summary: 中国科学技术大学首次在该赛道获奖。
+  summary: 中国科学技术大学首次在该赛道获奖
 
 - year: "2022"
   title: 苏州育才奖学金
-  awarder: 苏州育才奖学金项目
   category: scholarship
   category_label: 奖学金
   tier: municipal
   level_label: 市级
-  icon: fa-award
 
 - year: "2022"
-  title: 优秀助教
-  awarder: 中国科学技术大学
-  category: service
-  category_label: 教学荣誉
-  tier: university
+  title: 中国科学技术大学优秀助教
+  category: teaching
+  category_label: 教学工作
+  tier: institutional
   level_label: 校级
-  icon: fa-chalkboard-user
-  summary: 获评比例不超过全校助教总数的 7%。
+  summary: 获评比例不超过全校助教总数的 7%
 
 - year: "2022"
-  title: 优秀学生干部
-  awarder: 中国科学技术大学
-  category: service
+  title: 中国科学技术大学优秀学生干部
+  category: leadership
   category_label: 学生工作
-  tier: university
+  tier: institutional
   level_label: 校级
-  icon: fa-user-group
 
-- year: "2020, 2021 & 2023"
-  title: 优秀学生奖学金（银奖）
-  awarder: 中国科学技术大学
+- year: "2020、2021、2023"
+  title: 中国科学技术大学优秀学生奖学金（银奖）
   category: scholarship
   category_label: 奖学金
-  tier: university
+  tier: institutional
   level_label: 校级
-  icon: fa-graduation-cap
