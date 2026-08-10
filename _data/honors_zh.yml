@@ -43,12 +43,12 @@
   summary: 获评比例不超过答辩学生人数的 5%
 
 - year: "2022"
-  title: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛 LoongArch 挑战赛道全国亚军
+  title: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛 LoongArch 挑战赛全国亚军
   category: competition
   category_label: 学科竞赛
   tier: national
   level_label: 国家级
-  summary: 中国科学技术大学首次在该赛道获奖
+  summary: 中国科学技术大学首次在该项赛事获奖
 
 - year: "2022"
   title: 全国大学生计算机系统能力大赛操作系统设计赛 OS 内核设计赛道优胜奖

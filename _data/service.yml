@@ -49,9 +49,9 @@
   image: /assets/img/service/choir-note-cat.jpg
   image_width: 300
   image_height: 300
-  image_alt: “Note Cat” emblem of the USTC Student Choir
-  image_label: Note Cat
-  image_fit: contain
+  image_alt: USTC Student Choir emblem
+  image_label: Choir
+  image_fit: fill
 
 - slug: ustc-class-service
   section: student

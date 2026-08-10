@@ -78,10 +78,10 @@ cv:
         date: "2024"
         awarder: University of Science and Technology of China
         summary: Awarded to no more than 5% of thesis defense participants.
-      - title: National Runner-up, LoongArch Track
+      - title: National Runner-up, LoongArch Challenge
         date: "2022"
-        awarder: 6th “Loongson Cup” National Student Computer System Capability Challenge
-        summary: USTC's first award in the LoongArch Track.
+        awarder: 6th “Loongson Cup” National Student Computer System Capability Development Competition
+        summary: USTC's first award in the LoongArch Challenge.
       - title: Excellence Award, OS Kernel Design Track
         date: "2022"
         awarder: National Student Computer System Capability Challenge, Operating System Design Competition

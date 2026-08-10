@@ -49,9 +49,9 @@
   image: /assets/img/service/choir-note-cat.jpg
   image_width: 300
   image_height: 300
-  image_alt: 中国科学技术大学学生合唱团“音符喵”标志
-  image_label: 音符喵
-  image_fit: contain
+  image_alt: 中国科学技术大学学生合唱团标识
+  image_label: 合唱团
+  image_fit: fill
 
 - slug: ustc-class-service
   section: student

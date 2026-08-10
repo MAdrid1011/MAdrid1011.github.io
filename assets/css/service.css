@@ -80,6 +80,18 @@
   transform: scale(1.035);
 }
 
+.service-visual-fill {
+  background: var(--service-accent);
+}
+
+.service-visual-fill > a:first-child::after {
+  display: none;
+}
+
+.service-visual-fill img {
+  object-position: center;
+}
+
 .service-visual-clear {
   background: #eef2f7;
 }
