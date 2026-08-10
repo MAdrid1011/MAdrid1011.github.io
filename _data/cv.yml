@@ -74,10 +74,17 @@ cv:
         date: "2024"
         awarder: Anhui Computer Federation
         summary: The only USTC undergraduate recipient selected that year.
+      - title: University-Level Outstanding Undergraduate Thesis Award
+        date: "2024"
+        awarder: University of Science and Technology of China
+        summary: Awarded to no more than 5% of thesis defense participants.
       - title: National Runner-up, LoongArch Track
         date: "2022"
         awarder: 6th “Loongson Cup” National Student Computer System Capability Challenge
         summary: USTC's first award in the LoongArch Track.
+      - title: Excellence Award, OS Kernel Design Track
+        date: "2022"
+        awarder: National Student Computer System Capability Challenge, Operating System Design Competition
       - title: Suzhou Yucai Scholarship
         date: "2022"
         awarder: Suzhou Yucai Scholarship Program
@@ -102,8 +109,10 @@ cv:
     Teaching:
       - bullet: "**2026 · Invited Lecturer:** Delivered processor-design training to USTC and Minjiang University undergraduates at the 10th Loongson Cup Summer Camp."
       - bullet: "**2025–2026 · Invited Speaker:** Presented lectures on RISC-V privileged architecture and post-GPU AI hardware acceleration for USTC's “Technical Expert in the Classroom” series."
+      - bullet: "**2023 · Project Teaching Assistant:** Guided participants in computer systems and processor design for the “One Student One Chip” open-source processor chip education and tapeout program."
       - bullet: "**2022–2024 · Teaching Assistant:** Supported Syllabus of Digital Logic Lab, Computer Organization, and Comprehensive Experiment Of Computing System; mentored more than ten undergraduates whose projects received one First Prize, two Second Prizes, and seven Third Prizes in the Loongson Cup."
 
     Student Leadership:
       - bullet: "**2022–2023 · President, USTC Student Choir:** Organized the 2022 New Year Concert and 2023 Graduation Concert, and coordinated appearances on China Media Group's “Shining Names” and Zhejiang Satellite TV's “The Treasured Voice.”"
+      - bullet: "**2021–2022 · Vice President, USTC Student Choir:** Oversaw the Media Department, with primary responsibility for operating the choir's WeChat Official Account."
       - bullet: "**2020–2024 · Class Monitor and Deputy Secretary of the Youth League Branch:** Undergraduate Class 1, Class of 2024, School of Computer Science and Technology, USTC."

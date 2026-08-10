@@ -4,7 +4,7 @@ permalink: /zh/cv/
 title: 个人履历
 description: 教育背景、科研成果、荣誉、专利、教学与学生工作经历。
 nav: true
-nav_order: 6
+nav_order: 7
 lang: zh-CN
 translation_url: /cv/
 toc:

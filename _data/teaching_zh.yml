@@ -1,4 +1,5 @@
 - slug: loongson-summer-camp
+  section: lectures
   year: "2026"
   date: 2026 年 7 月
   type: 受邀培训
@@ -19,6 +20,7 @@
   poster_fit: cover
 
 - slug: post-gpu-lecture
+  section: lectures
   year: "2026"
   date: 2026 年 5 月
   type: 受邀讲座
@@ -38,6 +40,7 @@
   poster_alt: “后 GPU 时代的人工智能硬件加速策略与实现”讲座海报
 
 - slug: risc-v-lecture
+  section: lectures
   year: "2025"
   date: 2025 年 5 月
   type: 受邀讲座
@@ -56,7 +59,30 @@
   poster_height: 800
   poster_alt: “RISC-V 指令集特权架构解析与设计”讲座海报
 
+- slug: ysyx-teaching-assistant
+  section: courses
+  year: "2023"
+  date: 2023 年
+  type: 项目教学
+  role: 项目助教
+  title: “一生一芯”开源处理器芯片教学流片实践项目
+  venue: “一生一芯”项目组
+  description: 为项目学员的计算机系统与处理器设计学习提供答疑和关键节点指导。
+  tags:
+    - 处理器设计
+    - 计算机系统
+    - 学员指导
+  icon: microchip
+  accent: "#0891b2"
+  poster: /assets/img/projects/ysyx-logo.png
+  poster_width: 582
+  poster_height: 535
+  poster_alt: “一生一芯”项目官方标识
+  poster_fit: contain
+  course_url: https://ysyx.oscc.cc/
+
 - slug: computer-organization
+  section: courses
   year: "2023–24"
   date: 2023、2024 年
   type: 课程教学
@@ -78,6 +104,7 @@
   course_url: https://soc.ustc.edu.cn/COD/
 
 - slug: computing-systems-practice
+  section: courses
   year: "2023"
   date: 2023 年
   type: 课程教学
@@ -99,6 +126,7 @@
   course_url: https://soc.ustc.edu.cn/CECS/
 
 - slug: circuit-experiments
+  section: courses
   year: "2022–23"
   date: 2022、2023 年
   type: 课程教学

@@ -1,4 +1,6 @@
-- year: "2026"
+- slug: micro-2026
+  section: academic
+  year: "2026"
   date: 2026 年
   category: 程序委员会
   role: 工件评估程序委员会委员
@@ -11,6 +13,7 @@
   icon: box-open
   accent: "#7c3aed"
   url: https://microarch.org/micro59/
+  link_label: 会议官网
   image: /assets/img/service/micro2026-banner.webp
   image_width: 1000
   image_height: 667
@@ -22,3 +25,52 @@
   event_location: 希腊·雅典
   image_credit: "摄影：Diego Delso · CC BY-SA 3.0"
   image_credit_url: https://creativecommons.org/licenses/by-sa/3.0/
+
+- slug: ustc-student-choir
+  section: student
+  year: "2021–23"
+  date: 2021–2023 年
+  category: 学生组织
+  role: 中国科学技术大学学生合唱团
+  venue: 中国科学技术大学
+  roles:
+    - date: 2022–2023
+      title: 团长
+    - date: 2021–2022
+      title: 副团长（分管媒体部）
+  description: 团长期间组织 2022 年新年音乐会、2023 年毕业音乐会，并组织参与中央广播电视总台《闪亮的名字》与浙江卫视《天赐的声音》节目录制；副团长期间主要负责微信公众号平台运营。
+  tags:
+    - 团队管理
+    - 演出组织
+    - 媒体运营
+  accent: "#0f8f83"
+  url: https://chorus.ustc.edu.cn/
+  link_label: 合唱团主页
+  image: /assets/img/service/choir-note-cat.jpg
+  image_width: 300
+  image_height: 300
+  image_alt: 中国科学技术大学学生合唱团“音符喵”标志
+  image_label: 音符喵
+  image_fit: contain
+
+- slug: ustc-class-service
+  section: student
+  year: "2020–24"
+  date: 2020–2024 年
+  category: 班级工作
+  role: 班长兼副团支书
+  venue: 中国科学技术大学计算机科学与技术学院 2024 届本科 1 班
+  description: 在本科阶段持续承担班级学生工作与师生沟通协调职责。
+  tags:
+    - 班级服务
+    - 师生沟通
+    - 学生工作
+  accent: "#0755a5"
+  url: https://news.ustc.edu.cn/info/1055/87973.htm
+  link_label: 学院页面
+  image: /assets/img/service/ustc-cs-2024-graduation.jpg
+  image_width: 959
+  image_height: 662
+  image_alt: 中国科学技术大学计算机科学与技术学院 2024 届毕业生合影
+  image_label: USTC-CS
+  image_fit: clear

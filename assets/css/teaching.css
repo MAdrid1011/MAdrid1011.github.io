@@ -1,3 +1,17 @@
+.teaching-section + .teaching-section {
+  margin-top: 2.4rem;
+}
+
+.teaching-section-heading {
+  padding-left: 0.9rem;
+  border-left: 3px solid var(--global-theme-color);
+}
+
+.teaching-section-heading h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
 .teaching-list {
   display: grid;
   gap: 1rem;
@@ -174,9 +188,10 @@
   color: var(--global-text-color-light);
 }
 
-.teaching-card h2 {
+.teaching-card h3 {
   margin: 0 0 0.45rem;
   font-size: 1.12rem;
+  font-weight: 700;
   line-height: 1.35;
   color: var(--global-text-color);
 }

@@ -1,0 +1,41 @@
+- slug: ysyx-tapeout
+  dates: Aug. 2022–Jun. 2023
+  category: Chip Tapeout
+  role: Fifth-Cohort Tapeout Participant
+  title: “One Student One Chip” Open-Source Processor Chip Education and Tapeout Program
+  description: Completed the fifth-cohort curriculum, processor design, and tapeout, passed the project assessment, and received the tapeout certificate in June 2023.
+  highlights:
+    - Completed integrated practice spanning computer systems, the RISC-V ISA, and processor design
+    - Designed a processor that met the project's tapeout requirements
+  accent: "#0891b2"
+  visual_variant: pair
+  logos:
+    - image: /assets/img/projects/ysyx-logo.png
+      image_width: 582
+      image_height: 535
+      image_alt: “One Student One Chip” project logo
+    - image: /assets/img/projects/risc-v-logo.svg
+      image_width: 1000
+      image_height: 175
+      image_alt: RISC-V logo
+  url: https://ysyx.oscc.cc/
+  link_label: Project Website
+
+- slug: undergraduate-innovation
+  dates: Jun. 2022–Jun. 2024
+  category: Undergraduate Innovation Program
+  role: Core Member
+  title: Intelligent Accelerators and Intelligent Computing Systems
+  description: Developed processor ISA extensions and an on-chip memory system for edge AI inference.
+  highlights:
+    - Extended the LoongArch 32-bit reduced ISA with AI inference instructions, including matrix multiplication and transpose
+    - Designed a dedicated on-chip scratchpad memory system for intelligent computing and integrated it into the CPU
+  accent: "#0755a5"
+  visual_variant: brand
+  image: /assets/img/projects/loongson-logo.svg
+  image_width: 165
+  image_height: 18
+  image_alt: Loongson logo
+  image_fit: contain
+  url: https://github.com/MAdrid1011/intelligent-computing-core
+  link_label: View Repository

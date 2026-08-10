@@ -34,6 +34,14 @@
   level_label: Provincial
   summary: The only USTC undergraduate recipient selected that year
 
+- year: "2024"
+  title: University-Level Outstanding Undergraduate Thesis Award, University of Science and Technology of China
+  category: thesis
+  category_label: Undergraduate Thesis
+  tier: institutional
+  level_label: University
+  summary: Awarded to no more than 5% of thesis defense participants
+
 - year: "2022"
   title: National Runner-up in the LoongArch Track, 6th “Loongson Cup” National Student Computer System Capability Challenge
   category: competition
@@ -41,6 +49,13 @@
   tier: national
   level_label: National
   summary: USTC's first award in the LoongArch Track
+
+- year: "2022"
+  title: Excellence Award, OS Kernel Design Track, National Student Computer System Capability Challenge
+  category: competition
+  category_label: Competition
+  tier: national
+  level_label: National
 
 - year: "2022"
   title: Suzhou Yucai Scholarship

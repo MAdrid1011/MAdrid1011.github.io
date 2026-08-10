@@ -1,4 +1,5 @@
 - slug: loongson-summer-camp
+  section: lectures
   year: "2026"
   date: July 2026
   type: Invited Training
@@ -19,6 +20,7 @@
   poster_fit: cover
 
 - slug: post-gpu-lecture
+  section: lectures
   year: "2026"
   date: May 2026
   type: Invited Lecture
@@ -38,6 +40,7 @@
   poster_alt: Poster for the Post-GPU Era AI Hardware Acceleration lecture
 
 - slug: risc-v-lecture
+  section: lectures
   year: "2025"
   date: May 2025
   type: Invited Lecture
@@ -56,7 +59,30 @@
   poster_height: 800
   poster_alt: Poster for the RISC-V Privileged Architecture lecture
 
+- slug: ysyx-teaching-assistant
+  section: courses
+  year: "2023"
+  date: 2023
+  type: Project Teaching
+  role: Project Teaching Assistant
+  title: “One Student One Chip” Open-Source Processor Chip Education and Tapeout Program
+  venue: “One Student One Chip” Project Team
+  description: Provided guidance at key milestones and answered questions on computer systems and processor design for project participants.
+  tags:
+    - Processor Design
+    - Computer Systems
+    - Student Mentoring
+  icon: microchip
+  accent: "#0891b2"
+  poster: /assets/img/projects/ysyx-logo.png
+  poster_width: 582
+  poster_height: 535
+  poster_alt: Official “One Student One Chip” project logo
+  poster_fit: contain
+  course_url: https://ysyx.oscc.cc/
+
 - slug: computer-organization
+  section: courses
   year: "2023–24"
   date: 2023 & 2024
   type: Course Teaching
@@ -78,6 +104,7 @@
   course_url: https://soc.ustc.edu.cn/COD/
 
 - slug: computing-systems-practice
+  section: courses
   year: "2023"
   date: 2023
   type: Course Teaching
@@ -99,6 +126,7 @@
   course_url: https://soc.ustc.edu.cn/CECS/
 
 - slug: circuit-experiments
+  section: courses
   year: "2022–23"
   date: 2022 & 2023
   type: Course Teaching

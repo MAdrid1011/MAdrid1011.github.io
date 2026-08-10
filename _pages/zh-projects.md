@@ -2,7 +2,7 @@
 layout: page
 title: 项目
 permalink: /zh/projects/
-description: 开源处理器、体系结构原型与成熟论文开源工件。
+description: 芯片流片、智能计算系统与开源处理器工程实践。
 nav: true
 nav_order: 2
 lang: zh-CN
@@ -10,6 +10,56 @@ translation_url: /projects/
 disable_masonry: true
 disable_math: true
 disable_image_tools: true
+---
+
+<link rel="stylesheet" href="{{ '/assets/css/projects.css' | relative_url | bust_file_cache }}">
+
+<section class="featured-project-section" aria-labelledby="engineering-projects">
+  <div class="featured-project-heading">
+    <h2 id="engineering-projects">工程实践</h2>
+  </div>
+
+  <div class="featured-project-grid">
+    {% for item in site.data.projects_zh %}
+      <article class="featured-project-card" style="--project-accent: {{ item.accent }};">
+        <a class="featured-project-visual featured-project-visual-{{ item.image_fit | default: 'cover' }} featured-project-visual-{{ item.visual_variant | default: 'single' }}" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+          {% if item.logos %}
+            <span class="featured-project-logo-pair">
+              {% for logo in item.logos %}
+                <span><img src="{{ logo.image | relative_url }}" alt="{{ logo.image_alt }}" width="{{ logo.image_width }}" height="{{ logo.image_height }}"></span>
+              {% endfor %}
+            </span>
+          {% elsif item.image_light %}
+            <img class="only-light" src="{{ item.image_light | relative_url }}" alt="{{ item.image_alt }}" width="{{ item.image_width }}" height="{{ item.image_height }}">
+            <img class="only-dark" src="{{ item.image_dark | relative_url }}" alt="{{ item.image_alt }}" width="{{ item.image_width }}" height="{{ item.image_height }}">
+          {% else %}
+            <img src="{{ item.image | relative_url }}" alt="{{ item.image_alt }}" width="{{ item.image_width }}" height="{{ item.image_height }}">
+          {% endif %}
+        </a>
+
+        <div class="featured-project-content">
+          <div class="featured-project-meta">
+            <span>{{ item.category }}</span>
+            <time>{{ item.dates }}</time>
+          </div>
+          <h3>{{ item.title }}</h3>
+          <p class="featured-project-role">{{ item.role }}</p>
+          <p>{{ item.description }}</p>
+          <ul>
+            {% for highlight in item.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+          <a class="featured-project-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+            {{ item.link_label }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </article>
+    {% endfor %}
+
+  </div>
+</section>
+
 ---
 
 {% if site.data.repositories.github_users %}

@@ -2,7 +2,7 @@
 layout: page
 permalink: /service/
 title: Service
-description: Academic service and reviewing activities.
+description: Academic service and student service.
 nav: true
 nav_order: 6
 lang: en
@@ -12,13 +12,27 @@ disable_math: true
 disable_image_tools: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/service.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/service.css' | relative_url | bust_file_cache }}">
 
-<div class="service-list">
-  {% for item in site.data.service %}
+{% assign service_sections = "academic,student" | split: "," %}
+
+{% for section in service_sections %}
+
+  <section class="service-section" aria-labelledby="service-{{ section }}">
+    <div class="service-section-heading">
+      {% if section == "academic" %}
+        <h2 id="service-{{ section }}">Academic Service</h2>
+      {% else %}
+        <h2 id="service-{{ section }}">Student Service</h2>
+      {% endif %}
+    </div>
+
+    <div class="service-list">
+      {% for item in site.data.service %}
+        {% if item.section == section %}
     <article class="service-card" style="--service-accent: {{ item.accent }};">
       {% if item.image %}
-        <div class="service-visual">
+        <div class="service-visual service-visual-{{ item.image_fit | default: 'cover' }}">
           <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="Visit the {{ item.image_label }} website">
             <img
               src="{{ item.image | relative_url }}"
@@ -56,8 +70,15 @@ disable_image_tools: true
           <span>{{ item.category }}</span>
           <span><i class="fa-regular fa-calendar" aria-hidden="true"></i>{{ item.date }}</span>
         </div>
-        <h2>{{ item.role }}</h2>
+        <h3>{{ item.role }}</h3>
         <p class="service-venue">{{ item.venue }}</p>
+        {% if item.roles %}
+          <ul class="service-roles">
+            {% for role in item.roles %}
+              <li><span>{{ role.date }}</span><strong>{{ role.title }}</strong></li>
+            {% endfor %}
+          </ul>
+        {% endif %}
         <p>{{ item.description }}</p>
         <div class="service-footer">
           <div class="service-tags" aria-label="Service categories">
@@ -67,13 +88,15 @@ disable_image_tools: true
           </div>
           {% if item.url %}
             <a class="service-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
-              Conference Website <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              {{ item.link_label }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
             </a>
           {% endif %}
         </div>
       </div>
     </article>
+        {% endif %}
+      {% endfor %}
+    </div>
 
+  </section>
 {% endfor %}
-
-</div>

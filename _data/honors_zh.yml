@@ -34,6 +34,14 @@
   level_label: 省级
   summary: 2024 年中国科学技术大学唯一获该奖本科生
 
+- year: "2024"
+  title: 中国科学技术大学校级优秀毕业论文奖
+  category: thesis
+  category_label: 毕业论文
+  tier: institutional
+  level_label: 校级
+  summary: 获评比例不超过答辩学生人数的 5%
+
 - year: "2022"
   title: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛 LoongArch 挑战赛道全国亚军
   category: competition
@@ -41,6 +49,13 @@
   tier: national
   level_label: 国家级
   summary: 中国科学技术大学首次在该赛道获奖
+
+- year: "2022"
+  title: 全国大学生计算机系统能力大赛操作系统设计赛 OS 内核设计赛道优胜奖
+  category: competition
+  category_label: 学科竞赛
+  tier: national
+  level_label: 国家级
 
 - year: "2022"
   title: 苏州育才奖学金

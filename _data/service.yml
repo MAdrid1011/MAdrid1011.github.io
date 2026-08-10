@@ -1,4 +1,6 @@
-- year: "2026"
+- slug: micro-2026
+  section: academic
+  year: "2026"
   date: 2026
   category: Program Committee
   role: Artifact Evaluation Program Committee Member
@@ -11,6 +13,7 @@
   icon: box-open
   accent: "#7c3aed"
   url: https://microarch.org/micro59/
+  link_label: Conference Website
   image: /assets/img/service/micro2026-banner.webp
   image_width: 1000
   image_height: 667
@@ -22,3 +25,52 @@
   event_location: Athens, Greece
   image_credit: "Photo: Diego Delso · CC BY-SA 3.0"
   image_credit_url: https://creativecommons.org/licenses/by-sa/3.0/
+
+- slug: ustc-student-choir
+  section: student
+  year: "2021–23"
+  date: 2021–2023
+  category: Student Organization
+  role: USTC Student Choir
+  venue: University of Science and Technology of China
+  roles:
+    - date: 2022–2023
+      title: President
+    - date: 2021–2022
+      title: Vice President, overseeing the Media Department
+  description: As president, organized the 2022 New Year Concert and 2023 Graduation Concert and coordinated appearances on China Media Group's “Shining Names” and Zhejiang Satellite TV's “The Treasured Voice.” As vice president, primarily operated the choir's WeChat Official Account.
+  tags:
+    - Team Management
+    - Performance Organization
+    - Media Operations
+  accent: "#0f8f83"
+  url: https://chorus.ustc.edu.cn/
+  link_label: Choir Website
+  image: /assets/img/service/choir-note-cat.jpg
+  image_width: 300
+  image_height: 300
+  image_alt: “Note Cat” emblem of the USTC Student Choir
+  image_label: Note Cat
+  image_fit: contain
+
+- slug: ustc-class-service
+  section: student
+  year: "2020–24"
+  date: 2020–2024
+  category: Class Service
+  role: Class Monitor and Deputy Secretary of the Youth League Branch
+  venue: Undergraduate Class 1, Class of 2024, School of Computer Science and Technology, USTC
+  description: Supported class affairs and communication between students and faculty throughout the undergraduate program.
+  tags:
+    - Class Service
+    - Student–Faculty Communication
+    - Student Affairs
+  accent: "#0755a5"
+  url: https://news.ustc.edu.cn/info/1055/87973.htm
+  link_label: School Website
+  image: /assets/img/service/ustc-cs-2024-graduation.jpg
+  image_width: 959
+  image_height: 662
+  image_alt: Class of 2024 graduation group photo, School of Computer Science and Technology, USTC
+  image_label: USTC-CS
+  image_fit: clear

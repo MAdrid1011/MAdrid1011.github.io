@@ -1,0 +1,41 @@
+- slug: ysyx-tapeout
+  dates: 2022.08–2023.06
+  category: 芯片流片
+  role: 第五期流片学员
+  title: “一生一芯”开源处理器芯片教学流片实践项目
+  description: 完成第五期项目学习、处理器设计与流片，于 2023 年 6 月通过项目组考核并获得流片证明。
+  highlights:
+    - 完成计算机系统、RISC-V 指令集与处理器设计的贯通式实践
+    - 完成自主处理器设计并达到项目流片标准
+  accent: "#0891b2"
+  visual_variant: pair
+  logos:
+    - image: /assets/img/projects/ysyx-logo.png
+      image_width: 582
+      image_height: 535
+      image_alt: “一生一芯”项目标识
+    - image: /assets/img/projects/risc-v-logo.svg
+      image_width: 1000
+      image_height: 175
+      image_alt: RISC-V 标识
+  url: https://ysyx.oscc.cc/
+  link_label: 项目官网
+
+- slug: undergraduate-innovation
+  dates: 2022.06–2024.06
+  category: 大学生创新创业训练计划
+  role: 核心成员
+  title: 智能加速器与智能计算系统
+  description: 面向边缘端人工智能推理，开展处理器指令集扩展与片上存储系统设计。
+  highlights:
+    - 扩展龙架构 32 位精简版指令集，加入矩阵乘法、转置等 AI 推理指令
+    - 设计面向智能计算的片上专用 SPM 系统并集成至 CPU
+  accent: "#0755a5"
+  visual_variant: brand
+  image: /assets/img/projects/loongson-logo.svg
+  image_width: 165
+  image_height: 18
+  image_alt: Loongson 龙芯标识
+  image_fit: contain
+  url: https://github.com/MAdrid1011/intelligent-computing-core
+  link_label: 查看仓库
