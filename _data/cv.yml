@@ -40,7 +40,7 @@ cv:
         publisher: DAC 2026 · CCF-A · Accepted
         releaseDate: 2026
         url: https://doi.org/10.1145/3770743.3803965
-        summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Xiaochun Ye, and Wenming Li."
+        summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Wenming Li, and Xiaochun Ye."
       - title: "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures"
         publisher: ISCA 2026 · CCF-A · Accepted · Best Paper Nomination
         releaseDate: 2026
