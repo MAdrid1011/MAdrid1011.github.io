@@ -1,5 +1,6 @@
 .honors-showcase {
   --honor-institutional: #2563eb;
+  --honor-international: #be123c;
   --honor-municipal: #0f766e;
   --honor-national: #b45309;
   --honor-provincial: #7e22ce;
@@ -43,6 +44,10 @@
 
 .honor-tier-institutional {
   --honor-accent: var(--honor-institutional);
+}
+
+.honor-tier-international {
+  --honor-accent: var(--honor-international);
 }
 
 .honor-tier-municipal {
