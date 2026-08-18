@@ -38,9 +38,9 @@ cv:
         url: https://doi.org/10.1145/3770743.3803965
         summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Wenming Li, and Xiaochun Ye."
       - title: "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures"
-        publisher: ISCA 2026 · CCF-A · 已接收 · 最佳论文提名
+        publisher: ISCA 2026 · CCF-A · 已发表 · 最佳论文提名
         releaseDate: 2026
-        url: https://www.iscaconf.org/isca2026/program/
+        url: https://doi.org/10.1109/ISCA66397.2026.00017
         summary: "Haibin Wu, Wenming Li, Zhihua Fan, **Zirui Ma**, Yuqun Liu, Tengfei Xia, Yanhuan Liu, Kunming Zhang, Xiaochun Ye, Dongrui Fan, and Jian Weng."
       - title: "HARLD: A RISC-V Based Tightly Coupled Heterogeneous Computing Architecture for Low-Density Parity Check Decoding"
         publisher: Journal of Computer Science and Technology · CCF-B · 已发表

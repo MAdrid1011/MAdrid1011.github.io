@@ -38,14 +38,17 @@
   title           = {MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures},
   author          = {Wu, Haibin and Li, Wenming and Fan, Zhihua and Ma, Zirui and Liu, Yuqun and Xia, Tengfei and Liu, Yanhuan and Zhang, Kunming and Ye, Xiaochun and Fan, Dongrui and Weng, Jian},
   booktitle       = {53rd IEEE/ACM International Symposium on Computer Architecture},
+  pages           = {1--16},
+  month           = {June},
   year            = {2026},
   preview         = {mlx.webp},
   abstract        = {Structured sparsity is a promising approach to scaling large-language-model (LLM) inference, but existing forms such as block-diagonal matrices, FFT mixing, and butterfly factorization map inefficiently to GPUs due to deep stage dependencies and limited bulk parallelism. This paper presents MLX, an algorithm-architecture co-design that proposes a unified structured-sparse transformer framework combining semantic-aware FFT, hierarchical butterfly sparsity, and structured attention, and maps it efficiently onto spatial dataflow architectures. MLX is built on Closed Dependency Components (CDCs), a formal abstraction for deterministic forward-only dataflow regions that can be folded across layers and pipelined on compact meshes. Based on this abstraction, MLX introduces a multi-layer execution model with bounded-hop skip-hop routing, tag-based scheduling, and decoupled compute/transfer pipelines to overlap communication and computation across deep operators. We prototype MLX in 12 nm and show that it achieves 3.2x speedup and 3.0x energy savings over Jetson Xavier. A transformer-specialized reduced design further delivers up to 5.7x speedup over prior sparse accelerators. MLX also scales nearly linearly to 8x8 meshes and remains effective for long sequences from 1K to 4K, demonstrating that structured operator semantics can be translated into efficient spatial execution for sparse LLMs.},
   website         = {https://www.iscaconf.org/isca2026/program/},
+  doi             = {10.1109/ISCA66397.2026.00017},
   award_name      = {Best Paper Nomination},
   award           = {Nominated for the ISCA 2026 Best Paper Award.},
   bibtex_show     = {true},
-  note            = {CCF-A · Accepted},
+  note            = {CCF-A · Published},
   selected        = {true}
 }
 
