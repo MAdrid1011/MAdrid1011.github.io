@@ -15,7 +15,8 @@
     - value: "1"
       label: 团体赛一等奖
     - value: "2"
-      label: 个人赛三等奖
+      label: 个人赛优胜奖
+      note: 闽江大学首次
   teams:
     - award: 特等奖 · 全国冠军
       name: 也西湖队

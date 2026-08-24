@@ -15,7 +15,8 @@
     - value: "1"
       label: Team First Prize
     - value: "2"
-      label: Individual Third Prizes
+      label: Individual Merit Awards
+      note: A first for Minjiang University
   teams:
     - award: Grand Prize · National Champion
       name: Team Yexihu
