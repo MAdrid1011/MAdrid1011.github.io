@@ -29,10 +29,10 @@
     - Summer Camp
   icon: microchip
   accent: "#b23a48"
-  poster: /assets/img/teaching/summer-camp-lecture.webp
-  poster_width: 600
-  poster_height: 800
-  poster_alt: Processor design lecture at the USTC–Minjiang University Loongson Cup Summer Camp
+  poster: /assets/img/teaching/loongson-cup-trophy.webp
+  poster_width: 1025
+  poster_height: 1368
+  poster_alt: Team Grand Prize trophy from the CPU Design Track of the 10th Loongson Cup
   poster_fit: cover
 
 - slug: post-gpu-lecture

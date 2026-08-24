@@ -29,10 +29,10 @@
     - 夏令营
   icon: microchip
   accent: "#b23a48"
-  poster: /assets/img/teaching/summer-camp-lecture.webp
-  poster_width: 600
-  poster_height: 800
-  poster_alt: 中国科大—闽江大学“龙芯杯”夏令营处理器设计专题授课现场
+  poster: /assets/img/teaching/loongson-cup-trophy.webp
+  poster_width: 1025
+  poster_height: 1368
+  poster_alt: 第十届“龙芯杯”全国大学生计算机系统能力培养大赛 CPU 设计团体赛特等奖奖杯
   poster_fit: cover
 
 - slug: post-gpu-lecture
