@@ -265,6 +265,10 @@
   border-radius: 0.25rem 0.55rem 0.55rem 0.25rem;
 }
 
+.teaching-team:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
+
 .teaching-team span,
 .teaching-team strong {
   display: block;
