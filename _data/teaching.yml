@@ -6,7 +6,23 @@
   role: Invited Lecturer
   title: Processor Design for the 10th Loongson Cup
   venue: USTC–Minjiang University Loongson Cup Summer Camp
-  description: Delivered specialized training on processor design to undergraduates from USTC and Minjiang University participating in the 10th Loongson Cup.
+  description: Delivered specialized processor-design training to USTC and Minjiang University undergraduates, whose teams went on to achieve standout results in the 10th Loongson Cup.
+  outcome_heading: Training Outcomes
+  outcomes:
+    - value: "1"
+      label: Team Grand Prize
+      note: National Champion
+    - value: "1"
+      label: Team First Prize
+    - value: "2"
+      label: Individual Third Prizes
+  teams:
+    - award: Grand Prize · National Champion
+      name: Team Yexihu
+      members: Fu Jiale, Zhou Jiarun, Ye Ziwen, Wei Weixiao
+    - award: First Prize
+      name: Snail-Shell Electronic Chips
+      members: Zhao Tianxiang, Liu Yihang, Dong Yuhao, Xue Haocong
   tags:
     - Processor Design
     - Loongson Cup

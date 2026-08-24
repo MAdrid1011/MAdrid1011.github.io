@@ -62,6 +62,32 @@ disable_math: true
               <p class="teaching-venue"><i class="fa-solid fa-building-columns" aria-hidden="true"></i>{{ item.venue }}</p>
               <p class="teaching-description">{{ item.description }}</p>
 
+              {% if item.outcomes %}
+                <section class="teaching-outcomes" aria-label="{{ item.outcome_heading }}">
+                  <h4><i class="fa-solid fa-trophy" aria-hidden="true"></i>{{ item.outcome_heading }}</h4>
+                  <div class="teaching-outcome-grid">
+                    {% for outcome in item.outcomes %}
+                      <div class="teaching-outcome{% if forloop.first %} teaching-outcome-champion{% endif %}">
+                        <strong>{{ outcome.value }}</strong>
+                        <span>{{ outcome.label }}</span>
+                        {% if outcome.note %}<em>{{ outcome.note }}</em>{% endif %}
+                      </div>
+                    {% endfor %}
+                  </div>
+                  {% if item.teams %}
+                    <div class="teaching-team-grid">
+                      {% for team in item.teams %}
+                        <div class="teaching-team">
+                          <span>{{ team.award }}</span>
+                          <strong>{{ team.name }}</strong>
+                          <p>{{ team.members }}</p>
+                        </div>
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                </section>
+              {% endif %}
+
               <div class="teaching-footer">
                 <div class="teaching-tags" aria-label="Topics">
                   {% for tag in item.tags %}

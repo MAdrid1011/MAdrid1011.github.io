@@ -6,7 +6,23 @@
   role: 主讲教师
   title: 第十届“龙芯杯”处理器设计专题培训
   venue: 中国科学技术大学—闽江大学“龙芯杯”夏令营
-  description: 受邀面向中国科大与闽江大学参与第十届“龙芯杯”的本科生开展处理器设计专题培训。
+  description: 受邀面向中国科大与闽江大学参与第十届“龙芯杯”的本科生开展处理器设计专题培训；参训学生在团体赛与个人赛中取得突出成绩。
+  outcome_heading: 培训成果
+  outcomes:
+    - value: "1"
+      label: 团体赛特等奖
+      note: 全国冠军
+    - value: "1"
+      label: 团体赛一等奖
+    - value: "2"
+      label: 个人赛三等奖
+  teams:
+    - award: 特等奖 · 全国冠军
+      name: 也西湖队
+      members: 付家乐、周家润、叶梓文、魏微笑
+    - award: 一等奖
+      name: 蜗壳牌电子薯片
+      members: 赵天翔、刘亦航、董宇皓、薛浩聪
   tags:
     - 处理器设计
     - 龙芯杯
