@@ -80,7 +80,7 @@ disable_math: true
                         <div class="teaching-team">
                           <span>{{ team.award }}</span>
                           <strong>{{ team.name }}</strong>
-                          <p>{{ team.members }}</p>
+                          {% if team.members %}<p>{{ team.members }}</p>{% endif %}
                         </div>
                       {% endfor %}
                     </div>
