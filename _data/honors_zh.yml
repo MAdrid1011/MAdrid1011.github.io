@@ -1,3 +1,10 @@
+- year: "2026"
+  title: 中国科协青年科技人才培育工程博士生专项计划（中国计算机学会推荐人选）
+  category: talent
+  category_label: 人才计划
+  tier: national
+  level_label: 国家级
+
 - year: "2025"
   title: 第二届全球数智教育创新大赛 AI for Learning 赛道优秀奖
   category: competition

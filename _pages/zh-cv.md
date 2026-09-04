@@ -2,7 +2,7 @@
 layout: page
 permalink: /zh/cv/
 title: 个人履历
-description: 教育背景、科研成果、荣誉、专利、教学与学生工作经历。
+description: 教育背景、科研成果、人才计划与奖励、专利、教学与学生工作经历。
 nav: true
 nav_order: 7
 lang: zh-CN
@@ -59,7 +59,7 @@ toc:
   </div>
 
   <div class="card mt-3 p-3">
-    <h3 id="honors" class="card-title font-weight-medium">荣誉</h3>
+    <h3 id="honors" class="card-title font-weight-medium">人才计划与奖励</h3>
     <div>
       {% assign entries = cv.sections['Honors and Awards'] %}
       {% include cv/awards.liquid %}

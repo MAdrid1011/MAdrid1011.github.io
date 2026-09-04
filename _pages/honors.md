@@ -2,7 +2,7 @@
 layout: page
 permalink: /honors/
 title: Honors
-description: Scholarships, student awards, undergraduate theses, teaching, and academic competitions.
+description: Talent programs, scholarships, student awards, undergraduate theses, teaching, and academic competitions.
 nav: true
 nav_order: 3
 lang: en

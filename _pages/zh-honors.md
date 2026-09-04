@@ -2,7 +2,7 @@
 layout: page
 permalink: /zh/honors/
 title: 荣誉
-description: 奖学金、学生评优、毕业论文、教学工作与学科竞赛。
+description: 人才计划、奖学金、学生评优、毕业论文、教学工作与学科竞赛。
 nav: true
 nav_order: 3
 lang: zh-CN
