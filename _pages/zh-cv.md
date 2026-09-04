@@ -59,7 +59,7 @@ toc:
   </div>
 
   <div class="card mt-3 p-3">
-    <h3 id="honors" class="card-title font-weight-medium">人才计划与奖励</h3>
+    <h3 id="honors" class="card-title font-weight-medium">荣誉奖励</h3>
     <div>
       {% assign entries = cv.sections['Honors and Awards'] %}
       {% include cv/awards.liquid %}
