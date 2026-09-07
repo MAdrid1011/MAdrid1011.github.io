@@ -56,6 +56,13 @@
   level_label: 校级
   summary: 获评比例不超过答辩学生人数的 5%
 
+- year: "2023"
+  title: 中国科学技术大学优秀学生奖学金（金奖）
+  category: scholarship
+  category_label: 奖学金
+  tier: institutional
+  level_label: 校级
+
 - year: "2022"
   title: 第六届“龙芯杯”全国大学生计算机系统能力培养大赛 LoongArch 挑战赛全国亚军
   category: competition
@@ -93,7 +100,7 @@
   tier: institutional
   level_label: 校级
 
-- year: "2020、2021、2023"
+- year: "2020、2021"
   title: 中国科学技术大学优秀学生奖学金（银奖）
   category: scholarship
   category_label: 奖学金

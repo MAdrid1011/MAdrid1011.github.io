@@ -84,6 +84,9 @@ cv:
         date: "2024"
         awarder: University of Science and Technology of China
         summary: Awarded to no more than 5% of thesis defense participants.
+      - title: Outstanding Student Scholarship, Gold Award
+        date: "2023"
+        awarder: University of Science and Technology of China
       - title: National Runner-up, LoongArch Challenge
         date: "2022"
         awarder: 6th “Loongson Cup” National Student Computer System Capability Development Competition
@@ -102,7 +105,7 @@ cv:
         date: "2022"
         awarder: University of Science and Technology of China
       - title: Outstanding Student Scholarship, Silver Award
-        date: "2020, 2021 & 2023"
+        date: "2020 & 2021"
         awarder: University of Science and Technology of China
 
     Patents:

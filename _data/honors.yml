@@ -56,6 +56,13 @@
   level_label: University
   summary: Awarded to no more than 5% of thesis defense participants
 
+- year: "2023"
+  title: Outstanding Student Scholarship (Gold Award), University of Science and Technology of China
+  category: scholarship
+  category_label: Scholarship
+  tier: institutional
+  level_label: University
+
 - year: "2022"
   title: National Runner-up, LoongArch Challenge, 6th “Loongson Cup” National Student Computer System Capability Development Competition
   category: competition
@@ -93,7 +100,7 @@
   tier: institutional
   level_label: University
 
-- year: "2020, 2021, 2023"
+- year: "2020, 2021"
   title: Outstanding Student Scholarship (Silver Award), University of Science and Technology of China
   category: scholarship
   category_label: Scholarship
