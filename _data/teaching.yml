@@ -78,6 +78,27 @@
   poster_height: 800
   poster_alt: Poster for the RISC-V Privileged Architecture lecture
 
+- slug: parallel-processing
+  section: courses
+  year: "2026"
+  date: Fall 2026
+  type: Course Teaching
+  role: Graduate Course Teaching Assistant
+  title: Parallel Processing
+  venue: University of Chinese Academy of Sciences
+  description: Serve as a teaching assistant for the graduate-level “Parallel Processing” course, providing course-content guidance, learning support, and laboratory instruction to help students develop practical parallel-computing skills.
+  tags:
+    - Parallel Processing
+    - Graduate Teaching
+    - Laboratory Instruction
+  icon: network-wired
+  accent: "#2563eb"
+  poster: /assets/img/teaching/parallel-processing-course.png
+  poster_width: 552
+  poster_height: 646
+  poster_alt: Parallel Processing course page on the University of Chinese Academy of Sciences online learning platform
+  poster_fit: cover
+
 - slug: ysyx-teaching-assistant
   section: courses
   year: "2023"

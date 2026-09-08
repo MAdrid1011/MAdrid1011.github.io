@@ -78,6 +78,27 @@
   poster_height: 800
   poster_alt: “RISC-V 指令集特权架构解析与设计”讲座海报
 
+- slug: parallel-processing
+  section: courses
+  year: "2026"
+  date: 2026–2027 学年秋季学期
+  type: 课程教学
+  role: 研究生课程助教
+  title: 并行处理
+  venue: 中国科学院大学
+  description: 担任研究生课程《并行处理》助教，为研究生提供课程内容答疑、学习辅导与实验指导，帮助学生掌握并行计算方法与系统实践。
+  tags:
+    - 并行处理
+    - 研究生教学
+    - 实验指导
+  icon: network-wired
+  accent: "#2563eb"
+  poster: /assets/img/teaching/parallel-processing-course.png
+  poster_width: 552
+  poster_height: 646
+  poster_alt: 中国科学院大学网络教学平台“并行处理”课程页面截图
+  poster_fit: cover
+
 - slug: ysyx-teaching-assistant
   section: courses
   year: "2023"
