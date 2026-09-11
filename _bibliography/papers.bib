@@ -7,10 +7,12 @@
   preview         = {scarf.webp},
   abstract        = {Depth-guided, cost-volume-based Generalizable 3D Gaussian Splatting (G-3DGS) encoders reconstruct scenes as sets of Gaussian primitives directly from multi-view images without requiring per-scene optimization, thereby facilitating feed-forward novel-view synthesis on edge computing platforms. However, their shared encoder architecture presents two primary bottlenecks. First, the per-pixel depth search disregards semantic similarity within the 2D feature space, causing depth search operations to account for over 65\% of memory traffic due to redundant exhaustive candidate scans. Second, the sequential pipeline of depth prediction followed by Gaussian generation neglects local 3D geometric continuity, resulting in more than 52\% of generated Gaussians being redundant prior to instantiation. In this paper, we introduce SCARF, a dataflow-co-designed accelerator that aligns each bottleneck with a corresponding scene-level regularity. To mitigate the first bottleneck, Feature Similarity Depth Reuse reconceptualizes depth search as a problem of semantic locality: depth consistency is determined by affinity in feature space rather than physical address proximity. It transforms exhaustive per-pixel depth searches into anchor-centered local searches. To overcome the second bottleneck, Scene-Adaptive Early Sparsification disrupts the conventional serial depth-to-materialization boundary by probing each tile to infer local scene regularity. It then selectively activates only the minimally sufficient generation pathway, eliminating redundant Gaussian computations before primitive instantiation. On a 27.8 square millimeter 28 nm post-layout design, SCARF delivers a 2.94x geometric-mean end-to-end speedup with maximum PSNR degradation below 0.072\%, 2.23 inferences per joule, and 34.5x GPU energy efficiency.},
   code            = {https://github.com/MAdrid1011/SCARF},
-  supp            = {https://doi.org/10.5281/zenodo.21482385},
+  supp            = {https://doi.org/10.5281/zenodo.22434931},
   website         = {https://microarch.org/micro59/},
   bibtex_show     = {true},
   note            = {CCF-A · Accepted},
+  award_name      = {All 3 MICRO'26 AE Badges},
+  award           = {Awarded all three MICRO 2026 Artifact Evaluation badges: **Artifacts Available**, **Artifacts Evaluated - Functional**, and **Results Reproduced**. [Artifact Evaluation](https://www.microarch.org/micro59/submit/artifacts.php) · [Evaluated Artifact](https://doi.org/10.5281/zenodo.22434931)},
   selected        = {true}
 }
 

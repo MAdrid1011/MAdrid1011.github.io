@@ -32,7 +32,7 @@ cv:
 
     Publications:
       - title: "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow"
-        publisher: MICRO 2026 · CCF-A · Accepted
+        publisher: MICRO 2026 · CCF-A · Accepted · All 3 AE Badges
         releaseDate: 2026
         url: https://github.com/MAdrid1011/SCARF
         summary: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Wenxing Li, Fulin Zhang, Dongrui Fan, Xiaochun Ye, and Wenming Li."

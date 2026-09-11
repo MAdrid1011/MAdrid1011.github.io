@@ -28,3 +28,21 @@
   color: #fff !important;
   transform: translateY(-1px);
 }
+
+.publications ol.bibliography li #ma2026scarf .links a.award.btn::before {
+  display: inline-block;
+  width: 3.75rem;
+  height: 1.2rem;
+  margin-right: 0.42rem;
+  background-image:
+    url("../img/publication_badges/acm-artifacts-available-v1.1.png"), url("../img/publication_badges/acm-artifacts-functional-v1.1.png"),
+    url("../img/publication_badges/acm-results-reproduced-v1.1.png");
+  background-repeat: no-repeat;
+  background-position:
+    left center,
+    center center,
+    right center;
+  background-size: 1.2rem 1.2rem;
+  content: "";
+  vertical-align: -0.28rem;
+}
