@@ -28,12 +28,12 @@ cv:
 
     Publications:
       - title: "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow"
-        publisher: MICRO 2026 · CCF-A · 已接收 · 全部 3 枚 AE 徽章
+        publisher: MICRO 2026 · CCF-A · Accepted · 全部 3 枚 AE 徽章
         releaseDate: 2026
         url: https://github.com/MAdrid1011/SCARF
         summary: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Wenxing Li, Fulin Zhang, Dongrui Fan, Xiaochun Ye, and Wenming Li."
       - title: "AHASD: Asynchronous Heterogeneous Architecture for LLM Adaptive Drafting Speculative Decoding on Mobile Devices"
-        publisher: DAC 2026 · CCF-A · 已接收
+        publisher: DAC 2026 · CCF-A · Accepted
         releaseDate: 2026
         url: https://doi.org/10.1145/3770743.3803965
         summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Wenming Li, and Xiaochun Ye."
@@ -43,10 +43,15 @@ cv:
         url: https://doi.org/10.1109/ISCA66397.2026.00017
         summary: "Haibin Wu, Wenming Li, Zhihua Fan, **Zirui Ma**, Yuqun Liu, Tengfei Xia, Yanhuan Liu, Kunming Zhang, Xiaochun Ye, Dongrui Fan, and Jian Weng."
       - title: "HARLD: A RISC-V Based Tightly Coupled Heterogeneous Computing Architecture for Low-Density Parity Check Decoding"
-        publisher: Journal of Computer Science and Technology · CCF-B · 已发表
+        publisher: Journal of Computer Science and Technology · CCF-B · Accepted
         releaseDate: 2026
         url: https://doi.org/10.1007/s11390-025-5052-5
         summary: "Bing Wang, **Zirui Ma**, Haibin Wu, Fulin Zhang, Yue Wang, Zhihua Fan, Wenming Li, Xiaochun Ye, and Dongrui Fan."
+      - title: "DFU-L: A Latency-Sensitive Dataflow Architecture with NoC and Streaming Optimizations for Edge DSP"
+        publisher: Frontiers of Computer Science · CCF-B · Accepted
+        releaseDate: 2026
+        url: https://doi.org/10.1007/s11704-026-61054-2
+        summary: "Haibin Wu, Zhihua Fan, **Zirui Ma**, Zhen Wang, Wenxing Li, Haoran Tong, Tengfei Xia, Xiaochun Ye, and Wenming Li."
       - title: "BISC: Rethinking Instruction Set Abstractions at Block Granularity"
         publisher: IEEE Computer Architecture Letters · 已发表
         releaseDate: 2026

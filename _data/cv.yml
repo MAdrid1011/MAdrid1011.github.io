@@ -51,6 +51,11 @@ cv:
         releaseDate: 2026
         url: https://doi.org/10.1007/s11390-025-5052-5
         summary: "Bing Wang, **Zirui Ma**, Haibin Wu, Fulin Zhang, Yue Wang, Zhihua Fan, Wenming Li, Xiaochun Ye, and Dongrui Fan."
+      - title: "DFU-L: A Latency-Sensitive Dataflow Architecture with NoC and Streaming Optimizations for Edge DSP"
+        publisher: Frontiers of Computer Science · CCF-B · Accepted
+        releaseDate: 2026
+        url: https://doi.org/10.1007/s11704-026-61054-2
+        summary: "Haibin Wu, Zhihua Fan, **Zirui Ma**, Zhen Wang, Wenxing Li, Haoran Tong, Tengfei Xia, Xiaochun Ye, and Wenming Li."
       - title: "BISC: Rethinking Instruction Set Abstractions at Block Granularity"
         publisher: IEEE Computer Architecture Letters · Published
         releaseDate: 2026

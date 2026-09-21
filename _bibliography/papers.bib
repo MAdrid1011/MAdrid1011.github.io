@@ -57,7 +57,7 @@
 @article{wang2026harld,
   abbr            = {JCST'26},
   title           = {HARLD: A RISC-V Based Tightly Coupled Heterogeneous Computing Architecture for Low-Density Parity Check Decoding},
-  author          = {Wang, Bing and Ma, Zi-Rui and Wu, Hai-Bin and Zhang, Fu-Lin and Wang, Yue and Fan, Zhi-Hua and Li, Wen-Ming and Ye, Xiao-Chun and Fan, Dong-Rui},
+  author          = {Wang, Bing and Ma, Zirui and Wu, Hai-Bin and Zhang, Fu-Lin and Wang, Yue and Fan, Zhi-Hua and Li, Wen-Ming and Ye, Xiao-Chun and Fan, Dong-Rui},
   journal         = {Journal of Computer Science and Technology},
   volume          = {41},
   number          = {2},
@@ -71,6 +71,21 @@
   pdf             = {https://jcst.ict.ac.cn/cn/article/pdf/preview/10.1007/s11390-025-5052-5.pdf},
   bibtex_show     = {true},
   note            = {CCF-B · Published},
+  selected        = {false}
+}
+
+@article{wu2026dful,
+  abbr            = {FCS'26},
+  title           = {DFU-L: A Latency-Sensitive Dataflow Architecture with NoC and Streaming Optimizations for Edge DSP},
+  author          = {Wu, Haibin and Fan, Zhihua and Ma, Zirui and Wang, Zhen and Li, Wenxing and Tong, Haoran and Xia, Tengfei and Ye, Xiaochun and Li, Wenming},
+  journal         = {Frontiers of Computer Science},
+  year            = {2026},
+  preview         = {dfu-l.webp},
+  abstract        = {Dataflow architectures are attractive for real-time edge workloads because structured computation and streaming data movement expose abundant instruction-level and pipeline parallelism. However, as working sets shrink and iteration latency becomes critical, conventional spatial dataflow fabrics can become limited by on-chip transfer and control overheads rather than raw compute throughput. Fine-grained inter-PE dependences, scratchpad-bank contention, and frequent instruction or kernel switching introduce non-negligible stalls, reducing effective PE utilization. This paper presents DFU-L, a latency-sensitive coarse-grained dataflow architecture that improves latency overlap across on-chip communication, streaming memory access, and execution switching. DFU-L first introduces a forwarding-oriented NoC with dataflow-unblocking arbitration to accelerate inter-PE operand delivery and reduce dependence-transfer latency. It then organizes memory accesses into clustered fetch domains and uses a paced streaming fetch engine to smooth scratchpad-bank service under memory-bound thin-DFG execution. Finally, DFU-L reuses idle forwarding windows to overlap instruction and kernel switching with the tail of the current dataflow execution, reducing control-transition overhead. We evaluate DFU-L with a cycle-accurate simulator calibrated against RTL and a 12 nm, 1 GHz implementation. Across representative edge DSP kernels, DFU-L achieves up to 1.92x speedup and 1.45x on average over a mesh baseline. It improves energy efficiency by 1.14x--2.06x over Plasticine, reduces energy-delay product by up to 2.18x compared with state-of-the-art DSP accelerators, and delivers 1.24x normalized energy efficiency over high-performance dataflow designs.},
+  doi             = {10.1007/s11704-026-61054-2},
+  html            = {https://doi.org/10.1007/s11704-026-61054-2},
+  bibtex_show     = {true},
+  note            = {CCF-B · Accepted},
   selected        = {false}
 }
 

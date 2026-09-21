@@ -352,7 +352,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Ma]
-  first_name: [Zirui, Zi-Rui, Z.]
+  first_name: [Zirui, Z.]
 
   style: apa
   locale: en
