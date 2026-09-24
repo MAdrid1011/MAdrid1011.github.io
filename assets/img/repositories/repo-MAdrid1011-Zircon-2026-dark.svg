@@ -109,7 +109,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >LA32RSim-2026</text>
+      >Zircon-2026</text>
     </g>
       </g>
 
@@ -122,16 +122,16 @@
 
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">龙&#33455;&#26550;&#26500;32&#20301;&#31934;&#31616;&#29256;&#25351;&#20196;&#38598;CPU&#24320;&#28304;&#35843;&#35797;&#26694;&#26550;&#12290;</tspan>
+      <tspan dy="1.2em" x="25">Area-conscious RV32IMAF core for control- and</tspan><tspan dy="1.2em" x="25">memory-intensive workloads</tspan>
     </text>
 
     <g transform="translate(30, 65)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
-      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#6E4C13" />
-      <text data-testid="lang-name" class="gray" x="15">Assembly</text>
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#c22d40" />
+      <text data-testid="lang-name" class="gray" x="15">Scala</text>
     </g>
-    </g><g transform="translate(75.31999979019164, 0)"><g transform="translate(0, 0)">
+    </g><g transform="translate(52.0200005531311, 0)"><g transform="translate(0, 0)">
       <svg
         class="icon"
         y="-12"
