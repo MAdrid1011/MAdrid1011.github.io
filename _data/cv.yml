@@ -55,7 +55,7 @@ cv:
         publisher: Frontiers of Computer Science · CCF-B · Accepted
         releaseDate: 2026
         url: https://doi.org/10.1007/s11704-026-61054-2
-        summary: "Haibin Wu, Zhihua Fan, **Zirui Ma**, Zhen Wang, Wenxing Li, Haoran Tong, Tengfei Xia, Xiaochun Ye, and Wenming Li."
+        summary: "Haibin Wu, Zhihua Fan, Zhen Wang, **Zirui Ma**, Wenxing Li, Haoran Tong, Tengfei Xia, Xiaochun Ye, and Wenming Li."
       - title: "BISC: Rethinking Instruction Set Abstractions at Block Granularity"
         publisher: IEEE Computer Architecture Letters · Published
         releaseDate: 2026
