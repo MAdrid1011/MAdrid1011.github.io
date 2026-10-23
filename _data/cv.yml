@@ -37,7 +37,7 @@ cv:
         url: https://github.com/MAdrid1011/SCARF
         summary: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Wenxing Li, Fulin Zhang, Dongrui Fan, Xiaochun Ye, and Wenming Li."
       - title: "AHASD: Asynchronous Heterogeneous Architecture for LLM Adaptive Drafting Speculative Decoding on Mobile Devices"
-        publisher: DAC 2026 · CCF-A · Accepted
+        publisher: DAC 2026 · CCF-A · Published
         releaseDate: 2026
         url: https://doi.org/10.1145/3770743.3803965
         summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Wenming Li, and Xiaochun Ye."
