@@ -116,7 +116,7 @@ cv:
     Patents:
       - bullet: "**Zirui Ma**, Haibin Wu, Wenming Li, and Xiaochun Ye. *A Processor Supporting Dynamic In-Core Frontend/Backend Decoupling and Reconfiguration.* Application accepted, CN202511142402.X."
       - bullet: "**Zirui Ma**, Zhihua Fan, Wenming Li, and Xiaochun Ye. *A Draft-State-Aware Processing-in-Memory Command Scheduling Method and System for Speculative Decoding.* Application accepted, CN202611118344.1."
-      - bullet: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Xiaochun Ye, and Wenming Li. *A Depth-Guided Method for Accelerating Generalizable 3D Gaussian Splatting Encoding.* Application accepted, CN202611659079.8; filed 2026-10-26."
+      - bullet: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Xiaochun Ye, and Wenming Li. *A Depth-Guided Method for Accelerating Generalizable 3D Gaussian Splatting Encoding.* Application accepted, CN202611659079.8."
 
     Academic Service:
       - bullet: "**Artifact Evaluation Program Committee Member:** MICRO 2026."
