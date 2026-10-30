@@ -1,0 +1,41 @@
+:root {
+  --site-navbar-bg: #4051b5;
+  --site-navbar-fg: #fff;
+}
+
+header {
+  --global-theme-color: var(--site-navbar-bg);
+}
+
+#navbar {
+  --global-bg-color: var(--site-navbar-bg);
+  --global-text-color: rgb(255 255 255 / 85%);
+  --global-text-color-light: rgb(255 255 255 / 85%);
+  --global-theme-color: var(--site-navbar-fg);
+  --global-hover-color: var(--site-navbar-fg);
+  --global-hover-text-color: var(--site-navbar-bg);
+  --global-divider-color: rgb(255 255 255 / 18%);
+
+  color: var(--site-navbar-fg);
+  background-color: var(--site-navbar-bg);
+  opacity: 1;
+}
+
+#navbar .navbar-brand,
+#navbar #search-toggle,
+#navbar #light-toggle {
+  color: var(--site-navbar-fg);
+}
+
+#navbar .navbar-nav .nav-item.active > .nav-link {
+  color: var(--site-navbar-fg);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+}
+
+#navbar a:focus-visible,
+#navbar button:focus-visible {
+  outline: 2px solid var(--site-navbar-fg);
+  outline-offset: 3px;
+}
