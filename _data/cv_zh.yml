@@ -27,11 +27,6 @@ cv:
         end_date: 2024-06
 
     Publications:
-      - title: "GSPIM: A Temporal-Locality-Aware 4DGS Accelerator for PIM-Enabled Edge Devices"
-        publisher: HPCA 2027 · CCF-A · 已接收
-        releaseDate: 2027
-        url: https://hpca-conf.org/2027/
-        summary: "**Zirui Ma**, Zhihua Fan, Haibin Wu, Dongrui Fan, Xiaochun Ye, and Wenming Li."
       - title: "SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow"
         publisher: MICRO 2026 · CCF-A · 已接收 · 全部 3 枚 AE 徽章
         releaseDate: 2026
