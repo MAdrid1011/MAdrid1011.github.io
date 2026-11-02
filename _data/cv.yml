@@ -46,6 +46,11 @@ cv:
         releaseDate: 2026
         url: https://doi.org/10.1145/3770743.3803965
         summary: "**Zirui Ma**, Zhihua Fan, Wenxing Li, Haibin Wu, Fulin Zhang, Wenming Li, and Xiaochun Ye."
+      - title: "HARP: A Hierarchical Attention and Representation Sparsity Accelerator for Diffusion Transformers"
+        publisher: HPCA 2027 · CCF-A · Accepted
+        releaseDate: 2027
+        url: https://hpca-conf.org/2027/
+        summary: "Yudong Mu, Minnan Pei, Zhihua Fan, **Zirui Ma**, Gang Li, Zhuoran Song, Yu Huang, Dongrui Fan, Xiaochun Ye, and Wenming Li."
       - title: "MLX: Multi-Layer Execution for Structured LLM Workload Acceleration on Spatial Architectures"
         publisher: ISCA 2026 · CCF-A · Published · Best Paper Nomination
         releaseDate: 2026

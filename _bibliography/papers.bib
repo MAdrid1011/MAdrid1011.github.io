@@ -12,6 +12,20 @@
   selected        = {true}
 }
 
+@inproceedings{mu2027harp,
+  abbr            = {HPCA'27},
+  title           = {HARP: A Hierarchical Attention and Representation Sparsity Accelerator for Diffusion Transformers},
+  author          = {Mu, Yudong and Pei, Minnan and Fan, Zhihua and Ma, Zirui and Li, Gang and Song, Zhuoran and Huang, Yu and Fan, Dongrui and Ye, Xiaochun and Li, Wenming},
+  booktitle       = {33rd IEEE International Symposium on High-Performance Computer Architecture},
+  year            = {2027},
+  preview         = {harp.webp},
+  abstract        = {Diffusion Transformers (DiTs) enable high-quality image and video generation, but their iterative denoising repeatedly executes a full Transformer over long token sequences, making inference prohibitively expensive. Existing accelerators exploit spatial or temporal redundancy to select which tokens, interactions, or operators execute, or reduce arithmetic through quantization; the BF16 activations that remain are still largely processed as dense arithmetic objects. Organizing DiT execution around spatially local Token Regions exposes a complementary hierarchy: Inter-Region Attention Sparsity across Region Pairs and Intra-Region Representation Sparsity within Region Slices. Exploiting either level directly is difficult because low-mass attention interactions collectively preserve long-range information, while the quality impact of collapsing numeric planes depends on the denoising trajectory. We present HARP, an algorithm--hardware co-design that addresses these constraints with residual-compensated windowing and trajectory-aware PlaneClear. The former recomputes only mass-selected Region Pairs and reuses a window-matched residual to restore omitted output information; the latter clears low-impact BF16 components to collapse complete numeric planes across attention, projections, and FFNs. A region-centric, bit-interleaved accelerator coordinates selected-region delivery and persistent residual state globally while balancing irregular plane workloads locally. Across six image and video DiTs, HARP achieves a 12.24x geometric-mean speedup over NVIDIA H100 and 3.21x over DSTAR, with at most 2.32\% degradation in the primary quality metric and modest area overhead over BitRed.},
+  website         = {https://hpca-conf.org/2027/},
+  bibtex_show     = {true},
+  note            = {CCF-A · Accepted},
+  selected        = {true}
+}
+
 @inproceedings{ma2026scarf,
   abbr            = {MICRO'26},
   title           = {SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow},
