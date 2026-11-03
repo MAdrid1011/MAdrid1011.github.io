@@ -4,6 +4,12 @@
   font-weight: 700;
 }
 
+/* Keep one reading link for SCARF and AHASD; retain the SCARF AE badge. */
+.publications ol.bibliography li #ma2026scarf .links a:not(.award):not([href*="arxiv.org/abs/"]),
+.publications ol.bibliography li #ma2026ahasd .links a:not([href*="arxiv.org/abs/"]) {
+  display: none;
+}
+
 .publications ol.bibliography li .links a.award.btn {
   border-color: #b45309 !important;
   background: linear-gradient(135deg, #92400e 0%, #d97706 100%);
