@@ -13,7 +13,7 @@ disable_math: true
 
 <!-- _pages/publications.md -->
 
-<link rel="stylesheet" href="{{ '/assets/css/publications-custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/publications-custom.css' | relative_url | bust_file_cache }}">
 
 <div class="publications">
 

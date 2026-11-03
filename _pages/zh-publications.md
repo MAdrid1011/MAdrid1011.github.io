@@ -11,7 +11,7 @@ disable_masonry: true
 disable_math: true
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/publications-custom.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/publications-custom.css' | relative_url | bust_file_cache }}">
 
 <div class="publications">
 
