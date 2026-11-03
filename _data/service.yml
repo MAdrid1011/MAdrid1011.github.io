@@ -13,7 +13,7 @@
   icon: box-open
   accent: "#7c3aed"
   url: https://microarch.org/micro59/
-  link_label: Conference Website
+  link_label: Conference Web
   image: /assets/img/service/micro2026-banner.webp
   image_width: 1000
   image_height: 667
@@ -45,7 +45,7 @@
     - Media Operations
   accent: "#0f8f83"
   url: https://chorus.ustc.edu.cn/
-  link_label: Choir Website
+  link_label: Choir Web
   image: /assets/img/service/choir-note-cat.jpg
   image_width: 300
   image_height: 300
@@ -67,7 +67,7 @@
     - Student Affairs
   accent: "#0755a5"
   url: https://news.ustc.edu.cn/info/1055/87973.htm
-  link_label: School Website
+  link_label: School Web
   image: /assets/img/service/ustc-cs-2024-graduation.jpg
   image_width: 959
   image_height: 662

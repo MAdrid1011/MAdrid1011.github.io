@@ -96,7 +96,7 @@ disable_math: true
                 </div>
                 {% if item.course_url %}
                   <a class="teaching-link" href="{{ item.course_url }}" target="_blank" rel="noopener noreferrer">
-                    {% if item.slug == "ysyx-teaching-assistant" %}Project Website{% else %}Course Website{% endif %}
+                    {% if item.slug == "ysyx-teaching-assistant" %}Project Web{% else %}Course Web{% endif %}
                     <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
                   </a>
                 {% endif %}

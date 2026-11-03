@@ -41,7 +41,7 @@
         {% assign toc_collapse_depth = page.toc.collapse_depth | default: '' %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
-            <div class="col-sm-9">{{ content }}</div>
+            <div class="col-sm-9">{{ content | replace: '>Website<', '>Web<' }}</div>
             <div class="col-sm-3">
               <nav
                 id="toc-sidebar"
@@ -63,11 +63,11 @@
                 data-toc-collapse-depth="{{ toc_collapse_depth }}"
               ></nav>
             </div>
-            <div class="col-sm-9">{{ content }}</div>
+            <div class="col-sm-9">{{ content | replace: '>Website<', '>Web<' }}</div>
           </div>
         {% endif %}
       {% else %}
-        {{ content }}
+        {{ content | replace: '>Website<', '>Web<' }}
       {% endif %}
     </div>
 
