@@ -27,7 +27,7 @@ cv:
         end_date: 2024-06
 
     Publications:
-      - title: "GSPIM: A Temporal-Locality-Aware 4DGS Accelerator for PIM-Enabled Edge Devices"
+      - title: "GSPIM: A Temporal-Locality-Aware 4D Gaussian Splatting Accelerator with Polymorphic PIM and Multi-Frame Rendering Dataflow"
         publisher: HPCA 2027 · CCF-A · 已接收
         releaseDate: 2027
         url: https://hpca-conf.org/2027/
