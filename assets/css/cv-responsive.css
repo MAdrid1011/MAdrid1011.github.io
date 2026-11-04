@@ -1,0 +1,40 @@
+/* Date columns must fit their badges instead of shrinking to a percentage. */
+.cv > .card > .table-cv {
+  overflow-wrap: anywhere;
+}
+
+.cv .list-group-item > .row {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 1.25rem;
+  margin-inline: 0;
+}
+
+.cv .list-group-item > .row > [class*="col-"] {
+  width: auto;
+  min-width: 0;
+  max-width: none;
+  margin-top: 0 !important;
+  padding-inline: 0;
+}
+
+.cv .list-group-item > .row > .text-center {
+  text-align: left !important;
+}
+
+.cv .list-group-item > .row > [class*="col-"] > h6,
+.cv .list-group-item > .row > [class*="col-"] > p {
+  margin-left: 0 !important;
+  overflow-wrap: anywhere;
+}
+
+.cv .list-group-item > .row > [class*="col-"]:only-child {
+  grid-column: 1 / -1;
+}
+
+@media (width < 768px) {
+  .cv .list-group-item > .row {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0.5rem;
+  }
+}

@@ -7,6 +7,7 @@ nav: true
 nav_order: 7
 lang: zh-CN
 translation_url: /cv/
+cv_responsive: true
 toc:
   sidebar: left
 ---
