@@ -29,6 +29,10 @@
   transform: translateY(-1px);
 }
 
+.publications ol.bibliography li #ma2026scarf .links a.btn {
+  padding-inline: 0.75rem;
+}
+
 .publications ol.bibliography li #ma2026scarf .links a.award.btn::before {
   display: inline-block;
   width: 3.75rem;
