@@ -1,3 +1,31 @@
+- slug: isca-2027
+  section: academic
+  year: "2027"
+  date: 2027
+  category: Program Committee
+  role: Technical Program Committee Member
+  venue: 54th IEEE/ACM International Symposium on Computer Architecture (ISCA 2027)
+  description: Serving on the ISCA 2027 Technical Program Committee and reviewing research submissions in computer architecture.
+  tags:
+    - Paper Review
+    - Technical Program Committee
+    - ISCA
+  icon: clipboard-check
+  accent: "#2f746a"
+  url: https://iscaconf.org/isca2027/
+  link_label: Conference Web
+  image: /assets/img/service/isca2027-banner.webp
+  image_width: 1200
+  image_height: 674
+  image_alt: Atlanta skyline from the ISCA 2027 official homepage banner
+  image_label: ISCA 2027
+  conference_name: ISCA 2027
+  conference_full_name: 54th IEEE/ACM International Symposium on Computer Architecture
+  event_dates: June 5–9, 2027
+  event_location: Atlanta, Georgia, USA
+  image_credit: "Photo: Lance Asper · Unsplash"
+  image_credit_url: https://unsplash.com/photos/a-city-with-tall-buildings-9fxD3UW_C1I
+
 - slug: micro-2026
   section: academic
   year: "2026"

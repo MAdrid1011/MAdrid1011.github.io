@@ -1,3 +1,31 @@
+- slug: isca-2027
+  section: academic
+  year: "2027"
+  date: 2027 年
+  category: 程序委员会
+  role: 技术程序委员会委员
+  venue: 第 54 届 IEEE/ACM 国际计算机体系结构研讨会（ISCA 2027）
+  description: 担任 ISCA 2027 技术程序委员会委员，参与计算机体系结构领域论文的评审工作。
+  tags:
+    - 论文评审
+    - 技术程序委员会
+    - ISCA
+  icon: clipboard-check
+  accent: "#2f746a"
+  url: https://iscaconf.org/isca2027/
+  link_label: 会议官网
+  image: /assets/img/service/isca2027-banner.webp
+  image_width: 1200
+  image_height: 674
+  image_alt: ISCA 2027 官方首页使用的亚特兰大城市天际线横幅
+  image_label: ISCA 2027
+  conference_name: ISCA 2027
+  conference_full_name: 第 54 届 IEEE/ACM 国际计算机体系结构研讨会
+  event_dates: 2027 年 6 月 5 日至 9 日
+  event_location: 美国·亚特兰大
+  image_credit: "摄影：Lance Asper · Unsplash"
+  image_credit_url: https://unsplash.com/photos/a-city-with-tall-buildings-9fxD3UW_C1I
+
 - slug: micro-2026
   section: academic
   year: "2026"
