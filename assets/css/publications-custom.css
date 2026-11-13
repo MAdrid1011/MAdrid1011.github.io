@@ -4,6 +4,18 @@
   font-weight: 700;
 }
 
+.publications .publication-note-zh {
+  display: none;
+}
+
+html[lang^="zh"] .publications .publication-note-en {
+  display: none;
+}
+
+html[lang^="zh"] .publications .publication-note-zh {
+  display: inline;
+}
+
 .publications ol.bibliography li .links a.award.btn {
   border-color: #b45309 !important;
   background: linear-gradient(135deg, #92400e 0%, #d97706 100%);
