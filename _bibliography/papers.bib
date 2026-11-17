@@ -30,6 +30,20 @@
   selected        = {false}
 }
 
+@inproceedings{zhang2027kvflow,
+  abbr            = {DATE'27},
+  title           = {KVFlow: Unifying KV Cache Semantics and Streaming for Edge LLM Inference},
+  author          = {Kunming Zhang and Zhihua Fan and Yang Zhang and Yanhuan Liu and Zirui Ma and Lexin Wang and Yuqun Liu and Haibin Wu and Wenming Li},
+  booktitle       = {Design, Automation and Test in Europe Conference},
+  year            = {2027},
+  preview         = {kvflow.webp},
+  abstract        = {Low-batch LLM inference on edge devices is often limited by KV cache delivery because of constrained memory bandwidth and on-chip capacity. Existing accelerators generally expose transfer completion at a coarser granularity than attention computation and use separate mechanisms to support the selection and sharing patterns of different attention modes. As a result, attention tiles may remain idle after their required KV chunks have arrived, while supporting diverse KV access patterns introduces additional control and data paths. We observe that dense and sparse MHA, GQA, and MQA differ mainly in their KV working sets and consumer scopes, but share the same basic operations for selection, transfer, delivery, and reclamation. Based on this observation, we propose KVFlow, a KV supply architecture that expresses mode-specific semantics and common streaming operations through configurable primitives. Semantic management primitives specify selected KV entries, their consumers, and mapping lifetimes, while streaming primitives expose chunk readiness to dependent computation. A Configurable KV Primitive Unit executes these primitives using a control tree, a tagged streaming datapath, and coordinated state tracking, enabling fine-grained overlap of KV transfer and attention computation and reuse of shared KV chunks. Implemented in SystemVerilog and synthesized in a 12nm process at 1GHz, KVFlow achieves latency speedups and energy-efficiency gains of 2.80x and 3.16x over native Orin execution and 1.71x and 1.63x over SMOOTH across 13 model-workload configurations, with only 0.78\% area and 0.75\% power overhead.},
+  website         = {https://date27.date-conference.com/},
+  bibtex_show     = {true},
+  note            = {CCF-B · Accepted},
+  selected        = {false}
+}
+
 @inproceedings{ma2026scarf,
   abbr            = {MICRO'26},
   title           = {SCARF: A Scene-Adaptive Depth-Guided G-3DGS Encoder Accelerator with Semantic Reuse and Fused Dataflow},
