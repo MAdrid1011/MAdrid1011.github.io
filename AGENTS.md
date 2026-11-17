@@ -84,7 +84,7 @@ All six `test/integration_*.sh` scripts are gated by `unit-tests.yml`; run the o
 These are standing user preferences for this personal site and the bilingual LaTeX CVs in the parent workspace:
 
 - Order CV papers by these four groups, in this priority order: (1) first-author papers published or accepted; (2) non-first-author papers published or accepted; (3) first-author papers under review; (4) non-first-author papers under review.
-- Within each group, sort by year descending. Within the same year, sort by CCF rank: A, B, C, then non-CCF. Preserve existing relative order when these keys tie, unless the user requests a different order.
+- Within each group, sort by year descending. Within the same year, sort by CCF rank: A, B, C, then non-CCF. Among CCF-A conference papers in the same year and group, place ISCA, MICRO, HPCA, and ASPLOS ahead of DAC. Preserve existing relative order among the four major conferences, among DAC papers, and whenever these priorities otherwise tie, unless the user requests a different order.
 - Determine first authorship from the supplied author order. Do not infer joint first authorship or change an under-review paper to accepted without the user's confirmation.
 - Apply the CV order to both online CV data files and both LaTeX research-output sections. Homepage featured-work order is separate and follows the user's explicit placement requests.
 - Keep English and Chinese content synchronized. Use `已接收` and `已发表` consistently for status text in the Chinese online CV, and `Accepted` and `Published` in the English online CV.
