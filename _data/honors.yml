@@ -1,4 +1,11 @@
 - year: "2026"
+  title: National Scholarship
+  category: scholarship
+  category_label: Scholarship
+  tier: national
+  level_label: National
+
+- year: "2026"
   title: CAST Young Science and Technology Talent Development Program — Special Program for Doctoral Students
   category: talent
   category_label: Talent Program

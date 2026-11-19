@@ -1,4 +1,11 @@
 - year: "2026"
+  title: 国家奖学金
+  category: scholarship
+  category_label: 奖学金
+  tier: national
+  level_label: 国家级
+
+- year: "2026"
   title: 中国科协青年科技人才培育工程博士生专项计划
   category: talent
   category_label: 人才计划
