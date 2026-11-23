@@ -2,3 +2,60 @@ html:not([data-theme="dark"]) #navbar {
   --global-theme-color: #4051b5;
   --global-hover-color: #4051b5;
 }
+
+@media (max-width: 575.98px) {
+  body.fixed-top-nav {
+    /* The progress-bar runtime adds inline padding for the desktop fixed header. */
+    padding-top: 0 !important;
+  }
+
+  /* Keep the expanded menu in the page flow so it cannot cover the introduction. */
+  #navbar {
+    position: relative;
+  }
+
+  #navbar .navbar-toggler-main {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.625rem;
+    min-height: 44px;
+  }
+
+  #navbar .navbar-menu-label {
+    font-size: 0.9375rem;
+  }
+
+  #navbar .navbar-menu-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.125rem 0.5rem;
+    margin-top: 0.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  html[lang^="zh"] #navbar .navbar-menu-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  #navbar .navbar-menu-list > li {
+    min-width: 0;
+    align-self: center;
+  }
+
+  #navbar .nav-link {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 0.5rem 0.25rem;
+    font-size: 0.9375rem;
+  }
+
+  #navbar #light-toggle {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  #progress {
+    top: 0 !important;
+  }
+}

@@ -29,7 +29,7 @@ test("publication popover works without bootstrap compat runtime", async ({ page
   await expect(page.locator(".af-popover")).toBeVisible();
 });
 
-test("mobile navbar can expand/collapse", async ({ page }, testInfo) => {
+test("mobile navbar starts expanded and can collapse/expand", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "mobile", "mobile-only navigation behavior");
 
   await preparePage(page, "light");
@@ -39,11 +39,16 @@ test("mobile navbar can expand/collapse", async ({ page }, testInfo) => {
   await expect(toggle).toBeVisible();
 
   const nav = page.locator(".navbar-collapse").first();
-  await toggle.click();
   await expect(nav).toHaveClass(/show/);
+  await expect(toggle).toHaveAttribute("aria-expanded", "true");
 
   await toggle.click();
   await expect(nav).not.toHaveClass(/show/);
+  await expect(toggle).toHaveAttribute("aria-expanded", "false");
+
+  await toggle.click();
+  await expect(nav).toHaveClass(/show/);
+  await expect(toggle).toHaveAttribute("aria-expanded", "true");
 });
 
 test("repositories page renders external stat cards with deterministic fixtures", async ({ page }) => {
