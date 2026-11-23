@@ -3,12 +3,12 @@
   year: "2027"
   date: 2027 年
   category: 程序委员会
-  role: 技术程序委员会委员
+  role: 学生程序委员会委员
   venue: 第 54 届 IEEE/ACM 国际计算机体系结构研讨会（ISCA 2027）
-  description: 担任 ISCA 2027 技术程序委员会委员，参与计算机体系结构领域论文的评审工作。
+  description: 担任 ISCA 2027 学生程序委员会委员，参与计算机体系结构领域论文的评审工作。
   tags:
     - 论文评审
-    - 技术程序委员会
+    - 学生程序委员会
     - ISCA
   icon: clipboard-check
   accent: "#2f746a"
