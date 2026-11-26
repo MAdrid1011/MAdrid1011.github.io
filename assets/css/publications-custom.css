@@ -1,9 +1,3 @@
-.publications-by-role h2.publication-group-heading {
-  color: var(--global-text-color);
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
 .publications ol.bibliography li .periodical + .periodical {
   margin-top: 0.12rem;
   color: var(--global-text-color);
