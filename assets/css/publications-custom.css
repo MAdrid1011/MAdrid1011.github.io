@@ -1,8 +1,16 @@
 .publications-by-role h2.publication-group-heading {
   color: #929292;
 }
-
 /* Fit these diagrams to their content instead of their padded 16:9 canvases. */
+.publications .abbr img.preview[src*="/scarf.webp"] {
+  aspect-ratio: 900 / 406;
+  object-fit: cover;
+}
+
+.publications .abbr img.preview[src*="/ahasd.webp"] {
+  aspect-ratio: 900 / 418;
+  object-fit: cover;
+}
 
 .publications ol.bibliography li .periodical + .periodical {
   margin-top: 0.12rem;
