@@ -1,5 +1,5 @@
 .publications-by-role h2.publication-group-heading {
-  color: var(--global-text-color-light);
+  color: #929292;
 }
 
 .publications ol.bibliography li .periodical + .periodical {
