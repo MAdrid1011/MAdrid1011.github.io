@@ -2,6 +2,8 @@
   color: #929292;
 }
 
+/* Fit these diagrams to their content instead of their padded 16:9 canvases. */
+
 .publications ol.bibliography li .periodical + .periodical {
   margin-top: 0.12rem;
   color: var(--global-text-color);
