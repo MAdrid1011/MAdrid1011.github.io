@@ -19,7 +19,7 @@ scholar:
 <div class="publications publications-by-role">
 
 <section class="publication-group" aria-labelledby="first-author-papers">
-  <h2 class="bibliography publication-group-heading" id="first-author-papers">第一作者论文</h2>
+  <h2 class="bibliography publication-group-heading" id="first-author-papers">一作论文</h2>
 
 {% bibliography --group_by none --query @*[publication_role=first]* %}
 
