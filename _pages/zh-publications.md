@@ -9,12 +9,27 @@ lang: zh-CN
 translation_url: /publications/
 disable_masonry: true
 disable_math: true
+scholar:
+  sort_by: [year, collaboration_priority]
+  order: [descending, ascending]
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/publications-custom.css' | relative_url | bust_file_cache }}">
 
-<div class="publications">
+<div class="publications publications-by-role">
 
-{% bibliography %}
+<section class="publication-group" aria-labelledby="first-author-papers">
+  <h2 class="bibliography publication-group-heading" id="first-author-papers">第一作者论文</h2>
+
+{% bibliography --group_by none --query @*[publication_role=first]* %}
+
+</section>
+
+<section class="publication-group" aria-labelledby="collaborative-papers">
+  <h2 class="bibliography publication-group-heading" id="collaborative-papers">合作论文</h2>
+
+{% bibliography --group_by none --query @*[publication_role=collaboration]* %}
+
+</section>
 
 </div>
